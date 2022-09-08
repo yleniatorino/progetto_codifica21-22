@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei.dtd">
+<!-- 
+    Autore: Irene Ivaldi e Ylenia Torino
+    Pagine: 15, 16 => immagini 122-125
+    BGE Ms. fr. 3951/1.1-3
+    Prolusione terza
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                <title xml:lang="it" type="principale">Le prime tre conferenze all'università</title>
+                <title xml:lang="fr" type="sub">(cours d'ouverture, novembre 1891)</title>
+                <title xml:lang="it" type="sottotitolo">(corsi di apertura, novembre 1891)</title>
+                <author ref="#FdS">Ferdinand de Saussure</author>
+                <respStmt>
+                    <resp>Traduzione a cura di</resp>
+                    <name ref="#TdM"> Tullio de Mauro</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Commento di</resp>
+                    <name ref="#EF"> Emanuele Fadda</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital Edition
+                    <date when="2022-08">Agosto 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name ref="#AMdG">Angelo Mario del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name ref="#II">Irene Ivaldi</name>
+                    <name ref="#YT">Ylenia Torino</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher> Biblioteca di Ginevra</publisher>
+                <pubPlace> Ginevra </pubPlace>
+                <address>
+                    <name>Svizzera</name>
+                </address>
+                <availability>
+                    <p> Opera ad accesso libero </p>
+                </availability>
+                <date when="2022"> 2022 </date>
+            </publicationStmt>
+
+            <sourceDesc xml:lang="fr">
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Ginevra</settlement>
+                            <region key="CH" type="state">Svizzera</region>
+                        </placeName>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title ref="#prolusioni"> Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</title>
+                            <byline>di<docAuthor ref="#FdS">Ferdinand De Saussure</docAuthor>, linguista e semiologo svizzero.</byline>
+                            <textLang mainLang="fr">Scritto in francese</textLang>
+                            <docImprint> Ginevra
+                                <docDate> Novembre 1891</docDate>
+                            </docImprint>
+                        </msItem>
+                    </msContents>
+                    <physDesc xml:lang="it">
+                        <objectDesc>
+                            <supportDesc> 
+                                <support>
+                                    <material>Fogli di carta</material>
+                                </support>
+                                <extent>Ci sono precisamente 30 + 15 + 22 pagine, ovvero 67 pagine, + 1 foglietto.</extent>
+                                <condition>Alcune pagine di foglio sono rovinate: alcune di queste risultato strappate, al punto tale di non riuscire più a leggere le parole; altre invece sono ingiallite.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="20 30">
+                                    <p> Le pagine hanno in media tra 20 e 30 righe, non considerando cancellature, note o correzioni </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p>Scritto interamente dall'autore.</p>   
+                        </handDesc>
+                        <typeDesc>
+                            <p>Il tipo di scrittura utilizzato è il corsivo che non risulta sempre di facile comprensione poiché scritto a mano; presenta sottolineature, cancellature, correzioni, aggiunte interlineari e frasi incomplete.</p>
+                        </typeDesc>
+                    </physDesc>
+                    <history>
+                        <summary>L'autore ha raccolto i propri appunti in un manoscritto composto da tre sezioni.</summary>
+                        <origin>
+                            <p> Appunti per le prime conferenze 
+                                <origPlace ref="#UdG">all’Università di Ginevra,</origPlace> in parte utilizzati per le prime lezioni del 
+                                <orgName ref="#CdP">Cour de Phonétique du grec et du latin</orgName> tenutesi il
+                                <origDate when="1891-11-06"> 6</origDate>,
+                                <origDate when="1891-11-10"> 10</origDate> e
+                                <origDate when="1891-11-13"> 13 novembre 1891</origDate> 
+                                <origPlace> a Ginevra.</origPlace> Probabilmente, erano destinati alla pubblicazione di una brochure.
+                            </p>
+                        </origin>
+                        <acquisition>
+                            <p>Il manoscritto originale venne affidato alla
+                                <placeName ref="#BdG"> Biblioteca di Ginevra.</placeName>
+                            </p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" usage="50">Francese</language>
+                <language ident="it" usage="50">Italiano</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="single"/> <!--descrive la composizione interna di un testo-->
+                <derivation type="original"/>
+                <domain type="education"/><!--descrive il contesto sociale predominante in cui il testo è stato realizzato o al quale è destinato-->
+                <factuality type="fact"/><!--descrive la misura in cui il testo può essere considerato fantasioso o non fantasioso-->
+                <interaction type="partial" active="singular" passive="group"/><!--descrive la natura di qualsiasi interazione tra chi produce e coloro a cui è rivolto il testo-->
+                <preparedness type="draft"/><!-- traduzione di draft = bozza, progetto-->
+                <purpose type="inform" degree="high"/><!--caratterizza un unico scopo o funzione comunicativa del testo di alto grado informativo-->
+            </textDesc>
+            <settingDesc><!--descrive l'impostazione o le impostazioni all'interno delle quali avviene un'interazione linguistica o altri luoghi altrimenti indicati in un testo, edizione o metadati.-->
+                <setting>
+                        <name>Testi registrati nella
+                            <placeName ref="#BdG"> Biblioteca di Ginevra</placeName>,
+                            <country> Svizzera</country>.
+                        </name>
+                        <time>
+                            <date when="1891-11">Novembre 1891</date>
+                        </time>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile> <!--contiene una rappresentazione di una fonte scritta sotto forma di un insieme di immagini anziché come testo trascritto o codificato -->
+        <surface xml:id="pagina15">
+            <graphic url='img/pagina15.png' width='450px' height='661px' />
+            <!--<zone ulx="14" uly="1" lrx="445" lry="652" xml:id="p15_intera"/>-->
+            <zone ulx="106" uly="29" lrx="422" lry="55" xml:id="p15_1"/>
+            <zone ulx="107" uly="53" lrx="431" lry="77" xml:id="p15_2"/>
+            <zone ulx="43" uly="74" lrx="431" lry="102" xml:id="p15_3"/>
+            <zone ulx="103" uly="97" lrx="407" lry="116" xml:id="p15_4"/>
+            <zone ulx="97" uly="117" lrx="435" lry="140" xml:id="p15_5"/>
+            <zone ulx="96" uly="139" lrx="423" lry="159" xml:id="p15_6"/>
+            <zone ulx="99" uly="160" lrx="432" lry="183" xml:id="p15_7"/>
+            <zone ulx="23" uly="155" lrx="94" lry="261" xml:id="p15_7_nota"/>
+            <zone ulx="99" uly="189" lrx="428" lry="209" xml:id="p15_8"/>
+            <zone ulx="103" uly="213" lrx="440" lry="237" xml:id="p15_9"/>
+            <zone ulx="102" uly="235" lrx="424" lry="255" xml:id="p15_10"/>
+            <zone ulx="103" uly="257" lrx="423" lry="273" xml:id="p15_11"/>
+            <zone ulx="103" uly="275" lrx="423" lry="298" xml:id="p15_12"/>
+            <zone ulx="106" uly="297" lrx="434" lry="321" xml:id="p15_13"/>
+            <zone ulx="103" uly="322" lrx="431" lry="343" xml:id="p15_14"/>
+            <zone ulx="108" uly="344" lrx="426" lry="359" xml:id="p15_15"/>
+            <zone ulx="111" uly="361" lrx="435" lry="381" xml:id="p15_16"/>
+            <zone ulx="109" uly="383" lrx="438" lry="398" xml:id="p15_17"/>
+            <zone ulx="107" uly="401" lrx="430" lry="417" xml:id="p15_18"/>
+            <zone ulx="103" uly="419" lrx="436" lry="445" xml:id="p15_19"/>
+            <zone ulx="104" uly="444" lrx="244" lry="470" xml:id="p15_20"/>
+        </surface>
+        <surface xml:id="pagina15r">
+            <graphic url='img/pagina15r.png' width='450px' height='661px' />
+            <zone ulx="17" uly="5" lrx="450" lry="660" xml:id="pagina15r_intera"/>
+        </surface>
+        <surface xml:id="pagina16">
+            <graphic url='img/pagina16.png' width='450px' height='681px'/>
+            <!--<zone ulx="9" uly="12" lrx="444" lry="677" xml:id="p16_intera"/>-->
+            <zone ulx="105" uly="18" lrx="419" lry="51" xml:id="p16_1"/>
+            <zone ulx="92" uly="49" lrx="418" lry="77" xml:id="p16_2"/>
+            <zone ulx="94" uly="73" lrx="422" lry="97" xml:id="p16_3"/>
+            <zone ulx="94" uly="92" lrx="423" lry="117" xml:id="p16_4"/>
+            <zone ulx="98" uly="113" lrx="423" lry="138" xml:id="p16_5"/>
+            <zone ulx="99" uly="137" lrx="415" lry="161" xml:id="p16_6"/>
+            <zone ulx="99" uly="154" lrx="421" lry="181" xml:id="p16_7"/>
+            <zone ulx="98" uly="179" lrx="423" lry="207" xml:id="p16_8"/>
+            <zone ulx="18" uly="179" lrx="79" lry="207" xml:id="p16_8_nota"/>
+            <zone ulx="104" uly="200" lrx="423" lry="226" xml:id="p16_9"/>
+            <zone ulx="106" uly="219" lrx="435" lry="247" xml:id="p16_10"/>
+            <zone ulx="104" uly="242" lrx="431" lry="266" xml:id="p16_11"/>
+            <zone ulx="34" uly="261" lrx="415" lry="297" xml:id="p16_12"/>
+            <zone ulx="109" uly="281" lrx="426" lry="310" xml:id="p16_13"/>
+            <zone ulx="108" uly="303" lrx="422" lry="329" xml:id="p16_14"/>
+            <zone ulx="111" uly="322" lrx="406" lry="351" xml:id="p16_15"/>
+            <zone ulx="107" uly="349" lrx="423" lry="374" xml:id="p16_16"/>
+            <zone ulx="109" uly="372" lrx="424" lry="395" xml:id="p16_17"/>
+            <zone ulx="59" uly="392" lrx="433" lry="422" xml:id="p16_18"/>
+            <zone ulx="18" uly="424" lrx="103" lry="478" xml:id="p16_19_nota"/>
+            <zone ulx="107" uly="415" lrx="429" lry="450" xml:id="p16_19"/>
+            <zone ulx="113" uly="445" lrx="211" lry="469" xml:id="p16_20"/>
+            <zone ulx="147" uly="455" lrx="431" lry="486" xml:id="p16_21"/>
+            <zone ulx="109" uly="481" lrx="426" lry="508" xml:id="p16_22"/>
+            <zone ulx="112" uly="505" lrx="423" lry="530" xml:id="p16_23"/>
+            <zone ulx="112" uly="526" lrx="426" lry="554" xml:id="p16_24"/>
+            <zone ulx="113" uly="545" lrx="421" lry="575" xml:id="p16_25"/>
+            <zone ulx="119" uly="573" lrx="416" lry="592" xml:id="p16_26"/>
+            <zone ulx="116" uly="594" lrx="430" lry="617" xml:id="p16_27"/>
+            <zone ulx="107" uly="611" lrx="412" lry="644" xml:id="p16_28"/>
+            <zone ulx="115" uly="633" lrx="440" lry="667" xml:id="p16_29"/>
+            <zone ulx="174" uly="659" lrx="438" lry="680" xml:id="p16_30"/>
+        </surface>
+        <surface xml:id="pagina16r">
+            <graphic url='img/pagina16r.png' width='450px' height='681px' />
+            <zone ulx="12" uly="8" lrx="441" lry="675" xml:id="pagina16r_intera"/>  
+        </surface>
+    </facsimile>
+    <text xml:lang="fr" xml:id="text-fr" subtype="manuscript">
+        <body>
+            <div type="pagina" n="15">
+                <pb n="15" facs="#pagina15"/>
+                <!-- pb: page beginning, delinea l'inizio di una pagina-->
+                <!--facs: indica una o più immagini o porzioni di immagine che corrispondono all'elemento corrente-->
+                <ab type="pericope" n="1" xml:id="p15_sez1">
+                    <lb n = "1" facs="#p15_1"/>
+                        Le cas de la <term ref="#sép_géo"> séparation géographique</term>,
+                    <lb n = "2" facs="#p15_2"/>
+                    j’entends de la 
+                    <term ref="#disc_absolue">
+                         <emph rend="underline">discontinuité</emph>
+                     géographique </term> 
+                    <lb n = "3" facs="#p15_3"/>
+                    <add place="left">
+                        <term ref="#disc_absolue">absolue, </term>
+                    </add>
+                    <del type="overstrike" unit="line">non celui ou 1
+                        <unclear reason="illegibile">chaine</unclear> obstacle naturel</del>
+                    <lb n = "4" facs="#p15_4"/>
+                    <del type="overstrike" unit="word">
+                        <unclear reason="illegibile"></unclear>
+                    </del> ce cas, bien loin de
+                    <term ref="#rep_condi_rég"> représenter</term> la
+                    <lb n = "5" facs="#p15_5"/>
+                    <term ref="#rep_condi_rég">condition régulière</term> pour qu’il y ait
+                    <term ref="#divergence"> divergence, </term>
+                    <lb n = "6" facs="#p15_6"/>
+                    constitue un<term ref="#cas_par">
+                         <emph rend="underline">cas particulier</emph>
+                    </term> demandant à
+                    <lb n = "7" facs="#p15_7"/>
+                    être examiné à part
+                    <del rend="overtyped">.</del>
+                    <g ref="#nota_p_15_7">⟂</g>
+                    <lb n = "7_nota" facs="#p15_7_nota"/>
+                    <add xml:id="nota_p_15_7" place="left">et que j’exclus complètement de notre
+                        <term ref="#étude">étude</term>
+                        <date when="1891"> présente.</date>
+                    </add>
+                </ab>
+                <ab type="pericope" n="2" xml:id="p15_sez2">
+                    <lb n = "7" facs="#p15_7"/>
+                    <del type="overstrike" unit="words">On ne peut</del>L’effet
+                    <lb n = "8" facs="#p15_8"/>
+                    de l’
+                    <term ref="#iso_ling"> isolement
+                        <del rend="overtyped">d</del>
+                    linguistique
+                        <del rend="overtyped">que</del>
+                    </term> d'
+                    <abbr>1</abbr>
+                    <expan>une</expan> 
+                    <abbr>certe</abbr>
+                    <expan>certaine</expan>
+                    <term ref="#comm">com </term>
+                    <lb n = "9" facs="#p15_9"/>
+                    <term ref="#comm">munauté</term> est 
+                    <del type="overstrike" unit="words">double</del>
+                        <abbr>probabl.</abbr>
+                        <expan>probablement</expan> <term ref="#double">double:</term>
+                </ab>
+                <ab type="pericope" n="3" xml:id="p15_sez3">
+                    <lb n = "9" facs="#p15_9"/>
+                    d’une
+                    <lb n = "10" facs="#p15_10"/>
+                     part les
+                    <term ref="#dif"> différences</term> se produisent plus
+                    <lb n = "11" facs="#p15_11"/>
+                     rapidement
+                    <del rend="overtyped">,</del>
+                    <g>-</g> et de l’autre ces
+                    <term ref="#dif"> différences</term> se
+                    <lb n = "12" facs="#p15_12"/>
+                     produisent
+                    <abbr> ds</abbr>
+                    <expan>dans</expan> une autre
+                    <term ref="#dir"> direction</term> que si
+                    <lb n = "13" facs="#p15_13"/>
+                    la
+                    <term ref="#comm"> communauté</term> était restée en 
+                    <term ref="#contact">contact</term> avec
+                    <lb n = "14" facs="#p15_14"/>
+                    la
+                    <term ref="#masse"> masse.</term> <!--continua pericope successiva-->
+                </ab>
+                <ab type="pericope" n="4" xml:id="p15_sez4">
+                    <lb n = "14" facs="#p15_14"/>
+                    Mais, je le répète, c’est là un cas
+                    <lb n = "15" facs="#p15_15"/>
+                    sinon
+                    <term ref="#exc"> exceptionnel,</term> <del type="overstrike" unit="words">du moins completement</del>    
+                    <lb n = "16" facs="#p15_16"/>
+                    du moins réclamant une étude spéciale
+                    <lb n = "17" facs="#p15_17"/>
+                    et qui ne peut être abordé qu’à
+                    <term ref="#cond"> condition</term>
+                    <lb n = "18" facs="#p15_18"/>
+                    d’être
+                    <del rend="overtyped">
+                        <gap reason="illegible" unit="word"></gap>
+                    </del>
+                    <add>
+                         d’abord
+                    </add> au clair
+                    <term ref="#prec"> précisément</term> sur
+                    <lb n = "19" facs="#p15_19"/>
+                    la
+                    <term ref="#diffe"> différenciation</term> qui s’accomplit
+                    <abbr> ds</abbr>
+                    <expan> dans</expan> un
+                    <term ref="#cor_ling_cont"> corps</term>
+                    <lb n = "20" facs="#p15_20"/>
+                    <term ref="#cor_ling_cont">
+                        <abbr> linguistiq.</abbr>
+                        <expan> linguistique</expan> continu.
+                    </term>
+                </ab>
+                <p>
+                    <lb facs="#pg15_macchia"/>
+                    <damage agent="ink"></damage>
+                </p>
+            </div>
+            <div type="pagina" n="16">
+                <pb n="16" facs="#pagina16"/> 
+                <!-- pb: page beginning, delinea l'inizio di una pagina-->
+                <!--facs: indica una o più immagini o porzioni di immagine che corrispondono all'elemento corrente-->
+                <ab type="pericope" n="1" xml:id="p16_sez1">
+                    <lb n="1" facs="#p16_1"/>
+                    Si nous essayons
+                    <add place="above">
+                        <abbr>maintt </abbr>
+                        <expan>maintenant </expan>
+                    </add> de combiner,
+                    <add place="above"> de composer</add>
+                    <term ref="#fait"> le fait</term> de la
+                    <lb n="2" facs="#p16_2"/>
+                    <term ref="#diffe"> différenciation</term>
+                    <abbr> ds</abbr>
+                    <expan> dans</expan> le
+                    <term ref="#temp"> temps</term> avec celui de la
+                    <lb n = "3" facs="#p16_3"/>
+                    <term ref="#diffe">
+                        <abbr> diff</abbr>
+                        <expan> différenciation</expan>
+                    </term>
+                    <abbr> ds</abbr>
+                    <expan> dans</expan>
+                    <term ref="#espace">  l’espace,</term> à quelle
+                    <term ref="#pers"> perspective</term>
+                    <add place="above"> des
+                        <term ref="#phen">
+                            <abbr> phen</abbr>
+                            <expan> phénomènes</expan>
+                        </term>
+                    </add> arrive
+                    <lb n = "4" facs="#p16_4"/>
+                    rons-nous assez
+                    <term ref="#natur"> naturellement?</term>
+                </ab>
+                <ab type="pericope" n="2" xml:id="p16_sez2">
+                    <lb n = "4" facs="#p16_4"/>
+                    Soit une certaine
+                    <lb n = "5" facs="#p16_5"/>
+                    <term ref="#sur"> surface</term>
+                    <add place="above"> de mille
+                        <term ref="#lieues"> lieues</term>
+                        <term ref="#carrées"> carrées</term>
+                    </add> où se parle à
+                    <abbr> 1</abbr>
+                    <expan> un</expan> 
+                    <term ref="#mom_don"> moment donné</term>
+                    <abbr> 1</abbr>
+                    <expan> un</expan> m
+                    <lb n = "6" facs="#p16_6"/>
+                    <term ref="#idiome">idiome:</term>
+                    <g>-</g> 500 ans après il y a 
+                    <abbr> tt</abbr>
+                    <expan> toute</expan> une
+                    <lb n = "7" facs="#p16_7"/>
+                    série de 
+                    <term ref="#dialectes"> dialectes</term>
+                    <term ref="#dif"> différents</term> sur la même 
+                    <term ref="#sur"> surface.</term>
+                    <lb n = "8_nota" facs="#p16_8_nota"/>
+                    <add place="left"> B' B" B'"</add>
+                </ab>
+                <ab type="pericope" n="3" xml:id="p16_sez3">
+                    <lb n = "8" facs="#p16_8"/>
+                    Mais si nous partageons en 
+                    <abbr> 2</abbr>
+                    <expan> deux</expan>
+                    <term ref="#distance"> la distance</term>
+                    <lb n = "9" facs="#p16_9"/>
+                    <abbr> ds</abbr>
+                    <expan> dans</expan> le 
+                    <term ref="#temp"> temps,</term> 
+                    <del type="overstrike" unit="words">il est</del>il en résulte
+                    <term ref="#inevi"> inévitablement</term>
+                    <lb n = "10" facs="#p16_10"/>
+                    aussi un tout autre aspect des
+                    <term ref="#dif_dial">
+                        <abbr> differe</abbr>
+                        <expan> différences</expan> dialectales;
+                    </term>
+                </ab>
+                <ab type="pericope" n="4" xml:id="p16_sez4">
+                    <lb n = "11" facs="#p16_11"/>
+                    <abbr> c. à d.</abbr>
+                    <expan> c’est-à-dire</expan> qu’au bout de 250 ans, non seulement
+                    <lb n = "12" facs="#p16_12"/>
+                    <del type="overstrike" unit="words">dans chacun des</del>
+                    <add place="left"> les</add> 
+                    <add place="left">
+                        <term ref="#dif_dialectes">différents </term>
+                    </add>
+                    <term ref="#dif_dialectes"> dialectes</term> B' B" ne
+                    <del type="overstrike" unit="words"> seront</del>
+                    <add place="above"> sont</add> pas
+                    <lb n = "13" facs="#p16_13"/>
+                    encore ce qu’ils 
+                    <del rend="overtyped">
+                        <gap reason="illegible" unit="word"></gap>
+                    </del>seront, mais qu’ils n’existent
+                    <lb n = "14" facs="#p16_14"/>
+                    pas encore comme
+                    <term ref="#dialectes">
+                        <abbr> dial.</abbr>
+                        <expan> dialectes</expan>
+                    </term>
+                    <term ref="#indi"> individuels;</term>
+                </ab>
+                <ab type="pericope" n="5" xml:id="p16_sez5">
+                    <lb n = "14" facs="#p16_14"/>
+                    il n’y
+                    <lb n = "15" facs="#p16_15"/>
+                    a par
+                    <abbr> ex.</abbr>
+                    <expan> exemple</expan> au bout de 250 ans que
+                    <abbr> 2</abbr>
+                    <expan> deux</expan>
+                    <lb n = "16" facs="#p16_16"/>
+                    grandes
+                    <term ref="#fractions"> fractions</term> au
+                    <term ref="en_lieu_de">lieu</term> de
+                    <abbr> 30</abbr>
+                    <expan> trente</expan> ou
+                    <abbr> 40</abbr>
+                    <expan> quarante;</expan>
+                </ab>
+                <ab type="pericope" n="6" xml:id="p16_sez6">
+                    <lb n = "17" facs="#p16_17"/>
+                    et de 
+                    <abbr>
+                        <g>+</g>
+                    </abbr>
+                    <expan> plus</expan> ces 
+                    <abbr> 2</abbr>
+                    <expan> deux</expan>
+                    <abbr> gds</abbr>
+                    <expan> grandes</expan>
+                    <term ref="#fractions"> fractions</term> ne sont pas
+                    <lb n = "18" facs="#p16_18"/>
+                    <add place="left"> encore</add>
+                     très 
+                    <term ref="#cara"> caractérisées</term>
+                     chacune, de façon
+                    <del type="overstrike" unit="words"> qu'on</del>
+                    <lb n = "19_nota" facs="#p16_19_nota"/>
+                    <add place="left"> que l’habitant d’
+                        <abbr>1</abbr>
+                        <expan>un</expan> village de l’
+                        <abbr>extr</abbr>
+                        <expan>extrême</expan> Sud
+                    </add>
+                    <lb n = "19" facs="#p16_19"/>
+                     pourra encore se faire comprendre à l’ex
+                    <lb n = "20" facs="#p16_20"/>
+                    trême Nord.
+                </ab>
+                <ab type="pericope" n="7" xml:id="p16_sez7">
+                    <lb n = "21" facs="#p16_21"/>
+                    <space/> Cette 
+                    <term ref="#vue"> vue, </term> 
+                    <abbr> MM.</abbr>
+                    <expan> Messieurs</expan>, n’est ni 
+                    <del type="overstrike" unit="words"> précisé</del> très
+                    <lb n = "22" facs="#p16_22"/>
+                    <term ref="#fausse"> fausse </term> d’
+                    <abbr> 1</abbr>
+                    <expan> un</expan> côté, ni très 
+                    <term ref="#vraie"> vraie </term> de l’autre.
+                </ab>
+                <ab type="pericope" n="8" xml:id="p16_sez8">
+                    <lb n = "23" facs="#p16_23"/>
+                    Une des conquêtes les 
+                    <abbr>
+                        <g>+</g>
+                    </abbr>
+                    <expan> plus</expan> appréciables, et les
+                    <lb n = "24" facs="#p16_24"/>
+                    <abbr>
+                        <g>+</g>
+                    </abbr>
+                    <expan> plus</expan> récentes, de la 
+                    <term ref="#ling"> linguistique </term>, due 
+                    <del type="overstrike" unit="words"> en bon</del>
+                    <lb n = "25" facs="#p16_25"/>
+                    principalement à M. 
+                    <persName ref="#PM">
+                        <forename> Paul</forename>
+                        <surname> Meyer</surname> 
+                    </persName> 
+                    de l’
+                    <orgName ref="#EdC"> École </orgName>
+                    <lb n = "26" facs="#p16_26"/>
+                    <orgName ref="#EdC"> des Chartes, </orgName> c’est
+                    <del type="overstrike" unit="words"> qui'il 
+                        <emph rend="underline">n'exist pas en</emph>
+                    </del>
+                    <lb n = "27" facs="#p16_27"/>
+                    <del type="overstrike" unit="words"> realité d'unités o </del> que les 
+                    <term ref="#dialectes"> dialectes </term> ne sont
+                    <lb n = "28" facs="#p16_28"/>
+                    pas en 
+                    <term ref="#réalité"> réalité </term> des 
+                    <term ref="#unités"> unités </term> 
+                    <term ref="#définies"> définies,</term> qu’il
+                    <lb n = "29" facs="#p16_29"/>
+                        <emph rend="underline">n’existe pas</emph> 
+                    <add place="above"> 
+                        <term ref="#géogr"> géographiquement</term>
+                    </add> 
+                    de 
+                    <term ref="#dialectes"> dialectes;</term> mais qu’il existe
+                    <lb n = "30" facs="#p16_30"/>
+                    en revanche 
+                    <term ref="#géogr">
+                        <abbr> géographiq</abbr>
+                        <expan> géographiquement</expan>
+                    </term>
+                     des 
+                    <emph rend="underline"> 
+                        <term ref="#caractères">
+                            <abbr> caractèr</abbr>
+                            <expan> caractères</expan>
+                        </term> 
+                    </emph>
+                    <add place="below"> 
+                        <term ref="#dialectaux"> dialectaux. </term>
+                    </add>
+                </ab>
+            </div>
+            <!--Traduzione in italiano delle pagine 15 e 16 del manoscritto-->
+            <div type="traduzione15" xml:lang="it">
+                <ab n="1" corresp="#p15_sez1">
+                    Il caso della separazione geografica, intendo della discontinuità geografica assoluta,
+                    questo caso, ben lungi dal rappresentare una condizione regolare perché ci sia divergenza,
+                    costituisce un caso particolare che richiede di essere esaminato a parte e che io escludo
+                    completamente dal nostro presente studio. 
+                </ab>
+                <ab n="2" corresp="#p15_sez2">
+                    L’effetto dell’isolamento linguistico di una certa comunità è probabilmente duplice: 
+                </ab>
+                <ab n="3" corresp="#p15_sez3">
+                    da una parte le differenze si producono più rapidamente, e dall’altra queste differenze
+                    si producono in un’altra direzione rispetto a quella che avrebbe preso se la comunità
+                    fosse rimasta in contatto con la massa. 
+                </ab>
+                <ab n="4" corresp="#p15_sez4">
+                    Ma, lo ripeto, si tratta di un caso che, se non è eccezionale, quantomeno reclama uno
+                    studio speciale e che può essere affrontato solo a condizione di avere anzitutto le
+                    idee ben chiare sulla differenziazione che si compie in un corpo linguistico continuo. 
+                </ab>
+            </div>
+            <div type="traduzione16" xml:lang="it">
+                <ab n="1" corresp="#p16_sez1">
+                    Se noi proviamo ora a combinare, a comporre il fatto della differenziazione
+                    nel tempo con quello della differenziazione nello spazio, a quale prospettiva
+                    sui fenomeni arriveremo abbastanza naturalmente? 
+                </ab>
+                <ab n="2" corresp="#p16_sez2">
+                    Sia una certa superficie di mille leghe quadrate in cui si parla un idioma
+                    in un momento dato: 500 anni dopo c’è tutta una serie di dialetti differenti
+                    sulla medesima superficie, B’, B’’, B’’’. 
+                </ab>
+                <ab n="3" corresp="#p16_sez3">
+                    Ma se noi dividiamo in due la distanza nel tempo, ne risulta inevitabilmente
+                    anche un aspetto completamente diverso delle differenze dialettali; 
+                </ab>
+                <ab n="4" corresp="#p16_sez4">
+                    vale a dire che in capo a 250 anni, non solo i differenti dialetti B’, B’’ non sono
+                    ancora ciò che saranno, ma che essi non esistono ancora come dialetti individuali; 
+                </ab>
+                <ab n="5" corresp="#p16_sez5">
+                    per esempio, in capo a 250 anni ci sono soltanto due grandi frazioni in luogo di trenta o quaranta; 
+                </ab>
+                <ab n="6" corresp="#p16_sez6">
+                    e in più queste due grandi frazioni non sono ancora molto caratterizzate ognuna
+                    per proprio conto, di modo che l’abitante di un villaggio dell’estremo sud 
+                    potrà ancora farsi capire all’estremo nord. 
+                </ab>
+                <ab n="7" corresp="#p16_sez7">
+                    Questa visione, Signori, da una parte non è del tutto vera, e dall’altra non è del tutto falsa. 
+                </ab>
+                <ab n="8" corresp="#p16_sez8">
+                    Una delle conquiste più pregevoli della linguistica, dovuta principalmente a Paul Meyer
+                    dell’École des Chartes, è che i dialetti non sono in realtà unità definite, che non esistono
+                    geograficamente dei dialetti; ma esistono invece, geograficamente, dei caratteri dialettali. 
+                </ab>
+            </div>
+
+        </body>
+        <back>
+            <div type="list" rend="bulleted">
+                <list type="glossario" rend="numbered">
+                    <label>
+                        <term xml:id="sép_géo" xml:lang="fr">séparation géographique</term> 
+                        <term ref="#sép_géo" xml:lang="it">separazione geografica</term>
+                    </label>
+                    <item n="1">
+                        <gloss target="#sép_géo" source="">
+                            La separazione geografica è la circostanza in cui due idiomi non entrano a contatto tra di loro per un periodo continuativo. 
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="disc_absolue" xml:lang="fr">discontinuité géographique absolue</term>
+                        <term ref="#disc_absolue" xml:lang="it">discontinuità geografica assoluta</term>
+                    </label>
+                    <item n="2">
+                        <gloss target="#disc_absolue" source="">
+                            La discontinuità geografica assoluta è la condizione in cui due idiomi non entrano più a contatto tra di loro. 
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="rep_condi_rég" xml:lang="fr">représenter [] condition régulière</term>
+                        <term ref="#rep_condi_rég" xml:lang="it">rappresentare [] condizione regolare</term>
+                    </label>
+                    <item n="3">
+                        <gloss target="#rep_condi_rég" source="">
+                            Si intende il voler rappresentare la discontinuità geografica assoluta come un caso particolare e non come il modello della divergenza.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="divergence" xml:lang="fr">divergence</term>
+                        <term ref="#divergence" xml:lang="it">divergenza</term>
+                    </label>
+                    <item n="4">
+                        <gloss target="#divergence" source="https://dizionari.corriere.it/dizionario_italiano/D/divergenza.shtml">
+                            Si intende lo spostamento in direzioni diverse dalla teoria principale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="cas_par" xml:lang="fr">cas particulier</term>
+                        <term ref="#cas_par" xml:lang="it">caso particolare</term>
+                    </label>
+                    <item n="5">
+                        <gloss target="#cas_par" source="https://www.treccani.it/vocabolario/particolare/">
+                            Caso speciale, che ha caratteri propri, distintivi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="étude" xml:lang="fr">étude</term>
+                        <term ref="#étude" xml:lang="it">studio</term>
+                    </label>
+                    <item n="6">
+                        <gloss target="#étude" source="https://www.treccani.it/vocabolario/studio/#:~:text=%E2%80%93%201.,teorico%20o%20pratico%3A%20lo%20s.">
+                            L’azione, il fatto di studiare; applicazione volta all’apprendimento di quanto è stato sperimentato da altri in un ramo dello scibile, in un’arte, in un’attività pratica, allo scopo di fare proprie tali esperienze, ed eventualmente superarle, proponendo soluzioni nuove nel campo teorico o pratico.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="iso_ling" xml:lang="fr">isolement linguistique</term>
+                        <term ref="#iso_ling" xml:lang="it">isolamento linguistico</term>
+                    </label>
+                    <item n="7">
+                        <gloss target="#iso_ling" source="">
+                            L'isolamento linguistico è quel fenomeno in cui parte di una popolazione si distacca dal luogo di origine mantenendo la medesima lingua che subirà influenze dissimili a causa del contesto estraneo.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="comm" xml:lang="fr">communauté</term>
+                        <term ref="#comm" xml:lang="it">comunità</term>
+                    </label>
+                    <item n="8">
+                        <gloss target="#comm" source="https://www.treccani.it/vocabolario/comunita/">
+                            Insieme di persone che condivide lo stesso sistema linguistico.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="double" xml:lang="fr">double</term>
+                        <term ref="#double" xml:lang="it">duplice</term>
+                    </label>
+                    <item n="9">
+                        <gloss target="#double" source="https://www.treccani.it/vocabolario/duplice/">
+                            Sistema che si compone di due parti, di due elementi, non necessariamente uguali.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dif" xml:lang="fr">differencés</term>
+                        <term ref="#dif" xml:lang="it">differenze</term>
+                    </label>
+                    <item n="10">
+                        <gloss target="#dif" source="https://dizionari.corriere.it/dizionario_italiano/D/differenza.shtml">
+                            Distinzione tra enti appartenenti a una stessa categoria concettuale, che può comportare la specificazione dell'aspetto per cui differiscono tra di loro.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dir" xml:lang="fr">direction</term>
+                        <term ref="#dir" xml:lang="it">direzione</term>
+                    </label>
+                    <item n="11">
+                        <gloss target="#dir" source="https://www.treccani.it/vocabolario/direzione_res-07f5260c-dfc5-11eb-94e0-00271042e8d9/">
+                            parte o punto verso cui una persona o una cosa si muovono o sono dirette
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="contact" xml:lang="fr">contact</term>
+                        <term ref="#contact" xml:lang="it">contatto</term>
+                    </label>
+                    <item n="12">
+                        <gloss target="#contact" source="https://dizionari.corriere.it/dizionario_italiano/C/contatto.shtml">
+                            Vicinanza tra persone diretta o mediata da un mezzo di comunicazione o una relazione. 
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="masse" xml:lang="fr">masse</term>
+                        <term ref="#masse" xml:lang="it">massa</term>
+                    </label>
+                    <item n="13">
+                        <gloss target="#masse" source="https://www.treccani.it/vocabolario/massa/">
+                            Moltitudine in genere, quantità di gente non differenziata, folla, popolo
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="exc" xml:lang="fr">exceptionnel</term>
+                        <term ref="#exc" xml:lang="it">eccezionale</term>
+                    </label>
+                    <item n="14">
+                        <gloss target="#exc" source="https://www.treccani.it/vocabolario/eccezionale">
+                            Entità che costituisce un’eccezione, quindi straordinaria, singolare, insolita.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="étu_spes" xml:lang="fr">étude spéciale</term>
+                        <term ref="#étu_spes" xml:lang="it">studio speciale</term>
+                    </label>
+                    <item n="15">
+                        <gloss target="#étu_spes" source="https://www.treccani.it/vocabolario/speciale/">
+                            Studio non comune, fuori dell’ordinario, di genere particolare rispetto al lavoro attuale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="cond" xml:lang="fr">condition</term>
+                        <term ref="#cond" xml:lang="it">condizione</term>
+                    </label>
+                    <item n="16">
+                        <gloss target="#cond" source="https://www.treccani.it/vocabolario/condizione">
+                            Fatto il cui intervento è necessario perché un altro fatto possa verificarsi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="prec" xml:lang="fr">précisément</term>
+                        <term ref="#prec" xml:lang="it">ben chiare</term>
+                    </label>
+                    <item n="17">
+                        <gloss target="#prec" source="https://www.treccani.it/vocabolario/chiaro">
+                            Ben determinato; netto, senza equivoci.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="diffe" xml:lang="fr">différenciation</term>
+                        <term ref="#diffe" xml:lang="it">differenziazione</term>
+                    </label>
+                    <item n="18">
+                        <gloss target="#diffe" source="https://www.treccani.it/vocabolario/differenziazione/">
+                            L’atto, il fatto di differenziare, cioè di rendere differente o di trattare in modo differente.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="cor_ling_cont" xml:lang="fr">corps linguistique continu</term>
+                        <term ref="#cor_ling_cont" xml:lang="it">corpo linguistico continuo</term>
+                    </label>
+                    <item n="19">
+                        <gloss target="#cor_ling_cont" source="">
+                            Insieme delle connotazioni che caratterizzano una lingua dal punto di vista diacronico
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="fait" xml:lang="fr">le fait</term>
+                        <term ref="#fait" xml:lang="it">il fatto</term>
+                    </label>
+                    <item n="20">
+                        <gloss target="#fait" source="">
+                            Caratteristica di una entità, un soggetto.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="temp" xml:lang="fr">temps</term>
+                        <term ref="#temp" xml:lang="it">tempo</term>
+                    </label>
+                    <item n="21">
+                        <gloss target="#temp" source="https://www.treccani.it/vocabolario/tempo_res-2cc790f4-e8ab-11eb-94e0-00271042e8d9/">
+                            Successione di istanti che può essere suddivisa, misurata e distinta in ogni sua frazione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="espace" xml:lang="fr">espace</term>
+                        <term ref="#espace" xml:lang="it">spazio</term>
+                    </label>
+                    <item n="22">
+                        <gloss target="#espace" source="https://www.treccani.it/vocabolario/spazio_res-f896f656-e3e9-11eb-94e0-00271042e8d9/">
+                            Luogo o all’ambiente in cui si svolgono fenomeni.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="pers" xml:lang="fr">perspective</term>
+                        <term ref="#pers" xml:lang="it">prospettiva</term>
+                    </label>
+                    <item n="23">
+                        <gloss target="#pers" source="https://www.treccani.it/vocabolario/prospettiva/">
+                            In senso figurato, il termine fa riferimento a una previsione di probabili eventi futuri.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="phen" xml:lang="fr">phénomènes</term>
+                        <term ref="#phen" xml:lang="it">fenomeno</term>
+                    </label>
+                    <item n="24">
+                        <gloss target="#phen" source="https://www.treccani.it/vocabolario/fenomeno/">
+                            Ciò che appare, che è conoscibile attraverso i sensi e che può non corrispondere alla realtà oggettiva.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="nature" xml:lang="fr">naturellement</term>
+                        <term ref="#nature" xml:lang="it">naturalmente</term>
+                    </label>
+                    <item n="25">
+                        <gloss target="#nature" source="https://www.treccani.it/vocabolario/naturale/">
+                            Di cosa che è in natura, che è secondo natura, conforme all’ordine della natura
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="sur" xml:lang="fr">surface</term>
+                        <term ref="#sur" xml:lang="it">superficie</term>
+                    </label>
+                    <item n="26">
+                        <gloss target="#sur" source="">
+                            Porzione di spazio definita.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lieues" xml:lang="fr">lieues</term>
+                        <term ref="#lieues" xml:lang="it">leghe</term>
+                    </label>
+                    <item n="27">
+                        <gloss target="#lieues" source="https://www.treccani.it/vocabolario/lega3/">
+                            Unità di misura di distanza, e soprattutto di percorsi terrestri o marittimi, usata in passato, e spesso ancora oggi, con valori diversi da paese a paese.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="carrées" xml:lang="fr">carrées</term>
+                        <term ref="#carrées" xml:lang="it">quadrate</term>
+                    </label>
+                    <item n="28">
+                        <gloss target="#carrées" source="">
+                            Sistema di valutazione che, associato ad un unità di misura, definisce una superficie.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="parle" xml:lang="fr">parle</term>
+                        <term ref="#parle" xml:lang="it">parla</term>
+                    </label>
+                    <item n="29">
+                        <gloss target="#parle" source="https://www.treccani.it/vocabolario/parlare/">
+                            Esprimere, per mezzo del linguaggio, pensieri e sentimenti.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="mom_don" xml:lang="fr">carrées</term>
+                        <term ref="#mom_don" xml:lang="it">quadrate</term>
+                    </label>
+                    <item n="30">
+                        <gloss target="#mom_don" source="https://www.treccani.it/vocabolario/dato/">
+                            Istante preciso, specifico, stabilito.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="idiome" xml:lang="fr">idiome</term>
+                        <term ref="#idiome" xml:lang="it">idioma</term>
+                    </label>
+                    <item n="31">
+                        <gloss target="#idiome" source="https://www.treccani.it/enciclopedia/idioma/">
+                            Lingua propria di una nazione. In particolare, in linguistica, il conglomerato di sistemi che coesistono nell’ambito di una data comunità storico-sociologica.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dialectes" xml:lang="fr">dialectes</term>
+                        <term ref="#dialectes" xml:lang="it">dialetti</term>
+                    </label>
+                    <item n="32">
+                        <gloss target="#dialectes" source="https://www.treccani.it/enciclopedia/dialetto/">
+                            Sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="distance" xml:lang="fr">distance</term>
+                        <term ref="#distance" xml:lang="it">distanza</term>
+                    </label>
+                    <item n="33">
+                        <gloss target="#distance" source="https://www.treccani.it/enciclopedia/distanza_%28Dizionario-delle-Scienze-Fisiche%29/">
+                            La lunghezza del percorso fra due luoghi, due oggetti.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="inevi" xml:lang="fr">inévitablement</term>
+                        <term ref="#inevi" xml:lang="it">inevitabilmente</term>
+                    </label>
+                    <item n="34">
+                        <gloss target="#inevi" source="https://www.treccani.it/vocabolario/inevitabile/">
+                            Ciò che non può essere evitato.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dif_dial" xml:lang="fr">différences dialectales</term>
+                        <term ref="#dif_dial" xml:lang="it">differenze dialettali</term>
+                    </label>
+                    <item n="35">
+                        <gloss target="#dif_dial" source="https://www.traducta.it/notizie/differenze-dialettali-italia">
+                            Le differenze dialettali sono espressioni utilizzate sul territorio nazionale, ma che sono pronunciate e scritte in modo differente da regione a regione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dif_dialectes" xml:lang="fr">différentes dialectes</term>
+                        <term ref="#dif_dialectes" xml:lang="it">dialetti diversi</term>
+                    </label>
+                    <item n="36">
+                        <gloss target="#dif_dialectes" source="">
+                            Sistemi linguistici di ambito geografico o culturale per lo più limitato, che differiscono tra loro e non hanno raggiunto o hanno perduto autonomia e prestigio di fronte agli altri sistemi con cui costituiscono geneticamente un gruppo.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="indi" xml:lang="fr">individuels</term>
+                        <term ref="#indi" xml:lang="it">individuali</term>
+                    </label>
+                    <item n="37">
+                        <gloss target="#indi" source="">
+                            Entità separate, singole, autonome.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="fractions" xml:lang="fr">fractions</term>
+                        <term ref="#fractions" xml:lang="it">frazioni</term>
+                    </label>
+                    <item n="38">
+                        <gloss target="#fractions" source="">
+                            Parte di un tutto, porzione separata di un insieme.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="en_lieu_de" xml:lang="fr">en lieu de</term>
+                        <term ref="#en_lieu_de" xml:lang="it">in luogo di</term>
+                    </label>
+                    <item n="39">
+                        <gloss target="#en_lieu_de" source="https://www.treccani.it/vocabolario/luogo">
+                            Sostituito da
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="cara" xml:lang="fr">caractérisées</term>
+                        <term ref="#cara" xml:lang="it">caratterizzate</term>
+                    </label>
+                    <item n="40">
+                        <gloss target="#cara" source="">
+                            Soggetto o entità costituito da caratteristiche precise e definite. 
+                        </gloss>
+                    </item>
+                     <label>
+                        <term xml:id="vue" xml:lang="fr">vue</term>
+                        <term ref="#vue" xml:lang="it">visione</term>
+                    </label>
+                    <item n="41">
+                        <gloss target="#vue" source="https://www.treccani.it/vocabolario/visione">
+                           L’azione, il fatto di vedere una cosa per esaminarla, trarne notizie utili
+                        </gloss>
+                    </item>
+                     <label>
+                        <term xml:id="fausse" xml:lang="fr">fausse</term>
+                        <term ref="#fausse" xml:lang="it">falsa</term>
+                    </label>
+                    <item n="42">
+                        <gloss target="#fausse" source="https://www.treccani.it/vocabolario/falso1">
+                            Si definisce falso tutto ciò che è sostanzialmente non vero, ma è creduto o si vuol far passare per vero.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="vraie" xml:lang="fr">vraie</term>
+                        <term ref="#vraie" xml:lang="it">vera</term>
+                    </label>
+                    <item n="43">
+                        <gloss target="#vraie" source="https://www.treccani.it/vocabolario/vero">
+                           Che è realmente ciò che dice il suo nome
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="ling" xml:lang="fr">linguistique</term>
+                        <term ref="#ling" xml:lang="it">linguistica</term>
+                    </label>
+                    <item n="44">
+                        <gloss target="#ling" source="https://www.treccani.it/vocabolario/linguistica">
+                            Scienza che studia sistematicamente il linguaggio umano nella totalità delle sue manifestazioni, e quindi le lingue come istituti storici e sociali, la loro ripartizione, i loro reciproci rapporti, nonché la funzionalità delle singole lingue sotto differenti aspetti (fonetico, sintattico, lessicale, semantico), sia nella struttura con cui si presentano in un determinato momento della loro storia sia nella loro evoluzione attraverso il tempo.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="réalité" xml:lang="fr">réalité</term>
+                        <term ref="#réalité" xml:lang="it">realtà</term>
+                    </label>
+                    <item n="45">
+                        <gloss target="#réalité" source="https://www.treccani.it/vocabolario/realta2">
+                            Fatto vero, che esiste o è esistito realmente o che è veramente accaduto.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="unités" xml:lang="fr">unités</term>
+                        <term ref="#unités" xml:lang="it">unità</term>
+                    </label>
+                    <item n="46">
+                        <gloss target="#unités" source="https://www.treccani.it/vocabolario/unita">
+                            Il fatto e la caratteristica di costituire un insieme che, pur formato o derivato da più elementi o componenti, risulta tuttavia unitario, omogeneo e solidale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="définies" xml:lang="fr">définies</term>
+                        <term ref="#définies" xml:lang="it">definite</term>
+                    </label>
+                    <item n="47">
+                        <gloss target="#définies" source="https://www.treccani.it/vocabolario/definito">
+                            Entità precisa, determinata.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="géogr" xml:lang="fr"> géographiquement</term>
+                        <term ref="#géogr" xml:lang="it"> geograficamente</term>
+                    </label>
+                    <item n="48">
+                        <gloss target="#géogr" source="https://www.treccani.it/vocabolario/geografico">
+                            Per quanto riguarda la geografia, cioè la conformazione o la posizione geografica di un luogo
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="caractères" xml:lang="fr"> caractères </term>
+                        <term ref="#caractères" xml:lang="it"> caratteri </term>
+                    </label>
+                    <item n="49">
+                        <gloss target="#caractères" source="https://www.treccani.it/vocabolario/carattere">
+                            Segno distintivo, qualità propria che contraddistingue una persona, un organismo, un fenomeno collettivo, una cosa, da altri
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dialectaux" xml:lang="fr"> dialectaux </term>
+                        <term ref="#dialectaux" xml:lang="it"> dialettali </term>
+                    </label>
+                    <item n="50">
+                        <gloss target="#dialectaux" source="">
+                            Che riguardano il dialetto
+                        </gloss>
+                    </item>
+                </list>
+                <listBibl>
+                    <bibl xml:id="prolusioni">
+                        <title type="main" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao">Trois premières conférences à l'Universitè</title>
+                        <title type="sub">(cours d'ouverture, novembre 1891)</title>
+                        <author ref="#FdS">Ferdinand de Saussure</author>
+                        <pubPlace>
+                            <placeName ref="#UdG">Università di Ginevra</placeName>
+                        </pubPlace>
+                        <date when="1891">1891</date>
+                        <publisher>
+                            <placeName ref="#BdG">Biblioteca di Ginevra</placeName>
+                        </publisher>
+                    </bibl>
+                    <bibl xml:id="ACbibl" xml:lang="fr">
+                        <author ref="#AC">
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </author>
+                        <title type="main">Cahiers - 
+                            <persName ref="#FdS">Ferdinand de Saussure</persName>
+                        </title>
+                        <pubPlace>
+                            <placeName>Ginevra</placeName>
+                        </pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+                    
+                    <bibl xml:id="EFbibl">
+                        <author ref="EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </author>
+                        <title type="main" level="m">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <pubPlace>
+                            <placeName ref="#acireale">Acireale</placeName>
+                        </pubPlace>
+                        <publisher>Bonanno Editore</publisher>
+                        <date when="2006">2006</date>
+                        <biblScope unit="volume">1</biblScope>
+                    </bibl>
+                    <bibl xml:id="TdMbibl">
+                        <author ref="#FdS">
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </author>
+                        <author ref="TdM">
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </author>
+                        <title>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</title>
+                        <pubPlace>
+                            <placeName>Roma</placeName>
+                        </pubPlace>
+                        <date when="1976">1976</date>
+                        <publisher>Editori Laterza</publisher>
+                    </bibl>
+                </listBibl>
+                <listOrg>
+                    <org>
+                        <orgName xml:id="BdG">
+                            <name>Biblioteca di Ginevra</name>
+                            <placeName>Ginevra</placeName>
+                            <country>Svizzera</country>
+                            <date when="1559">1559</date>
+                        </orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="UdG">
+                            <name>Università di Ginevra</name>
+                            <placeName>Ginevra</placeName>
+                            <country>Svizzera</country>
+                            <date when="1559">1559</date>
+                        </orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="CdL" xml:lang="it">
+                            <name>Corso di Linguistica</name>
+                            <placeName>Ginevra</placeName>
+                            <country>Svizzera</country>
+                        </orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="CdP" xml:lang="fr">
+                            <name>Cour de Phonétique du grec et du latin</name>
+                            <placeName>Ginevra</placeName>
+                            <country>Svizzera</country>
+                        </orgName>
+                    </org>
+                    <org>
+                        <orgName xml:id="EdC" xml:lang="fr">
+                            <name>École des Chartes</name>
+                            <placeName>Parigi</placeName>
+                            <country>Francia</country>
+                        </orgName>
+                    </org>
+                </listOrg>
+                <listPerson>
+                    <person xml:id="FdS">
+                        <occupation>Linguista</occupation>
+                        <persName>
+                            <forename>Ferdinand</forename>
+                            <surname>de Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <placeName>Ginevra, </placeName>
+                            <country>Svizzera, </country>
+                            <date> il 26 novembre 1857.</date>
+                        </birth>
+                        <death>
+                            <placeName>Vufflens-le-Château, </placeName>
+                            <country>Svizzera, </country>
+                            <date>il 22 febbraio 1913.</date>
+                        </death>
+                    </person>
+                    <person xml:id="TdM">
+                        <occupation>Linguista</occupation>
+                        <persName>
+                            <forename>Tullio</forename>
+                            <surname>de Mauro</surname> 
+                        </persName>
+                    </person>
+                    <person xml:id="EF">
+                        <occupation>Linguista</occupation>
+                        <persName>
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname> 
+                        </persName>
+                    </person>
+                    <person xml:id="AMdG">
+                        <occupation>Docente</occupation>
+                        <persName>
+                            <forename>Angelo Mario</forename>
+                            <surname>del Grosso</surname> 
+                        </persName>
+                    </person>
+                    <person xml:id="AC">
+                        <occupation>Linguista</occupation>
+                        <persName>
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="II">
+                        <occupation>Studentessa</occupation>
+                        <persName>
+                            <forename>Irene</forename>
+                            <surname>Ivaldi</surname> 
+                        </persName>
+                    </person>
+                    <person xml:id="YT">
+                        <occupation>Studentessa</occupation>
+                        <persName>
+                            <forename>Ylenia</forename>
+                            <surname>Torino</surname> 
+                        </persName>
+                    </person>
+                    <person xml:id="PM">
+                        <occupation>Filologo</occupation>
+                        <persName>
+                            <forename>Paul</forename>
+                            <surname>Meyer</surname> 
+                        </persName>
+                    </person>
+                </listPerson>
+            </div>
+        </back>
+    </text>
+</TEI>

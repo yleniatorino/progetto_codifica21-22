@@ -1,0 +1,568 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Progetto di Codifica dei Testi: Prolusioni di F. de Saussure</title>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"><script src="https://code.jquery.com/jquery-3.6.0.js"></script><script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script><link href="stile.css" rel="stylesheet" type="text/css"><script src="script.js"></script></head>
+   <body>
+      <div id="intestazione">
+         <h1>Le prime tre conferenze all'università</h1>
+         <h2>(corsi di apertura, novembre 1891)</h2>
+         <h3>di Ferdinand de Saussure</h3>
+         <h4>Progetto condotto da Irene Ivaldi e Ylenia Torino</h4>
+      </div>
+      <div id="select">
+         <div class="lista"><a href="#intro" id="l_intro">
+               Introduzione
+               </a></div>
+         <div class="lista"><a href="#pagine" id="l_p15" onclick="show15()">
+               Pagina 15
+               </a></div>
+         <div class="lista"><a href="#pagine" id="l_p16" onclick="show16()">
+               Pagina 16
+               </a></div>
+         <div class="lista"><a href="#appendice" id="l_appendice">
+               Appendice
+               </a></div>
+      </div>
+      <div id="intro">
+         <div>
+            <div id="info_intro">
+               <div id="info_autore">
+                  <p><b>Nome:</b>
+                     Ferdinand
+                     de Saussure
+                     </p>
+                  <p><b>Sesso: </b>M</p>
+                  <p><b>Ruolo: </b>Linguista</p>
+                  <p><b>Nascita:</b>
+                     Ginevra, 
+                     Svizzera, 
+                     il 26 novembre 1857.
+                     </p>
+                  <p><b>Morte:</b>
+                     Vufflens-le-Château, 
+                     Svizzera, 
+                     il 22 febbraio 1913.
+                     </p>
+               </div>
+               <div id="img_dS"><img src="img/de_saussure1.png"></div>
+               <div id="info_pub">
+                  <p><b>Titolo:</b> Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</p>
+                  <p><b>Autore: </b>Ferdinand De Saussure</p>
+                  <p><b>Lingua: </b>Scritto in francese</p>
+                  <p><b>Acquisizione:</b> Biblioteca di Ginevra</p>
+                  <p><b>Data:</b> Novembre 1891</p>
+               </div>
+               <div id="info_desc">
+                  <p>L'autore ha raccolto i propri appunti in un manoscritto composto da tre sezioni. Appunti per le prime conferenze 
+                     all’Università di Ginevra, in parte utilizzati per le prime lezioni del 
+                     Cour de Phonétique du grec et du latin tenutesi il
+                     6,
+                     10 e
+                     13 novembre 1891 
+                     a Ginevra. Probabilmente, erano destinati alla pubblicazione di una brochure.
+                     </p>
+               </div>
+            </div>
+         </div>
+         <div id="descrizione_supporto">
+            <h3>Descrizione fisica</h3>
+            <ul>
+               <li>
+                  Fogli di carta
+                  </li>
+               <li>Ci sono precisamente 30 + 15 + 22 pagine, ovvero 67 pagine, + 1 foglietto.</li>
+               <li> Le pagine hanno in media tra 20 e 30 righe, non considerando cancellature, note o
+                  correzioni </li>
+               <li>Alcune pagine di foglio sono rovinate: alcune di queste risultato strappate, al punto
+                  tale di non riuscire più a leggere le parole; altre invece sono ingiallite.</li>
+               <li>Scritto interamente dall'autore.</li>
+               <li>Il tipo di scrittura utilizzato è il corsivo che non risulta sempre di facile comprensione
+                  poiché scritto a mano; presenta sottolineature, cancellature, correzioni, aggiunte
+                  interlineari e frasi incomplete.</li>
+            </ul>
+         </div>
+      </div>
+      <div id="pagine">
+         <h3 class="p15">Pagina 15</h3>
+         <h3 class="p16">Pagina 16</h3>
+         <div id="cont_elementi">
+            <div id="legenda">
+               <h4>Visualizza fenomeni</h4><button type="button" id="antroponimo" onclick="mostra_antr()">Antroponimi</button><button type="button" id="istituzione" onclick="mostra_ist()">Istituzioni</button><button type="button" id="data" onclick="mostra_date()">Date</button><button type="button" id="ele_term" onclick="mostra_gloss()">Elementi terminologici</button><button type="button" id="aggiunte" onclick="mostra_add()">Aggiunte</button><button type="button" id="abbreviazioni" onclick="mostra_expan()">Abbreviazioni</button><button type="button" id="cancellazioni" onclick="mostra_del()">Cancellazioni</button><button type="button" id="sottolineature" onclick="mostra_und()">Sottolineature</button></div>
+            <div id="cont_testo">
+               <div class="p15"><button type="button" id="mostra_retro15" onclick="mostra_r15()">Mostra retro</button><button type="button" id="mostra_p16" class="p15" onclick="mostra_p16()">Pagina 16</button><button type="button" id="mostra_front15" onclick="mostra_15()">Mostra principale</button><h4>Testo originale</h4>
+                  <div id="pagina_15"></div>
+                  <br><span class="numeroRiga" id="p15_1"><b>1</b></span>
+                  Le cas de la <span class="el_term" id="def_sép_géo" title="&#xA;                            La separazione geografica è la circostanza in cui due idiomi non entrano a contatto tra di loro per un periodo continuativo. &#xA;                        "> séparation géographique</span>,
+                  <br><span class="numeroRiga" id="p15_2"><b>2</b></span>
+                  j’entends de la 
+                  <span class="el_term" id="def_disc_absolue" title="&#xA;                            La discontinuità geografica assoluta è la condizione in cui due idiomi non entrano più a contatto tra di loro. &#xA;                        ">
+                     <u>discontinuité</u>
+                     géographique </span> 
+                  <br><span class="numeroRiga" id="p15_3"><b>3</b></span>
+                  
+                  <add class="add"><b>&lt;</b><i>(
+                        <span class="el_term" id="def_disc_absolue" title="&#xA;                            La discontinuità geografica assoluta è la condizione in cui due idiomi non entrano più a contatto tra di loro. &#xA;                        ">absolue, </span>
+                        )</i><b>&gt;</b></add>
+                  <del class="del">non celui ou 1
+                     chaine obstacle naturel</del>
+                  <br><span class="numeroRiga" id="p15_4"><b>4</b></span>
+                  <del class="del">
+                     
+                     </del> ce cas, bien loin de
+                  <span class="el_term" id="def_rep_condi_rég" title="&#xA;                            Si intende il voler rappresentare la discontinuità geografica assoluta come un caso particolare e non come il modello della divergenza.&#xA;                        "> représenter</span> la
+                  <br><span class="numeroRiga" id="p15_5"><b>5</b></span>
+                  <span class="el_term" id="def_rep_condi_rég" title="&#xA;                            Si intende il voler rappresentare la discontinuità geografica assoluta come un caso particolare e non come il modello della divergenza.&#xA;                        ">condition régulière</span> pour qu’il y ait
+                  <span class="el_term" id="def_divergence" title="&#xA;                            Si intende lo spostamento in direzioni diverse dalla teoria principale.&#xA;                        "> divergence, </span>
+                  <br><span class="numeroRiga" id="p15_6"><b>6</b></span>
+                  constitue un<span class="el_term" id="def_cas_par" title="&#xA;                            Caso speciale, che ha caratteri propri, distintivi.&#xA;                        ">
+                     <u>cas particulier</u>
+                     </span> demandant à
+                  <br><span class="numeroRiga" id="p15_7"><b>7</b></span>
+                  être examiné à part
+                  <del class="del">.</del>
+                  ⟂
+                  <br><span class="numeroRiga" id="p15_7_nota"><b>7_nota</b></span>
+                  
+                  <add class="add"><b>&lt;</b><i>(et que j’exclus complètement de notre
+                        <span class="el_term" id="def_étude" title="&#xA;                            L’azione, il fatto di studiare; applicazione volta all’apprendimento di quanto è stato sperimentato da altri in un ramo dello scibile, in un’arte, in un’attività pratica, allo scopo di fare proprie tali esperienze, ed eventualmente superarle, proponendo soluzioni nuove nel campo teorico o pratico.&#xA;                        ">étude</span>
+                        <span class="date"> présente.</span>
+                        )</i><b>&gt;</b></add>
+                  
+                  <br><span class="numeroRiga" id="p15_7"><b>7</b></span>
+                  <del class="del">On ne peut</del>L’effet
+                  <br><span class="numeroRiga" id="p15_8"><b>8</b></span>
+                  de l’
+                  <span class="el_term" id="def_iso_ling" title="&#xA;                            L'isolamento linguistico è quel fenomeno in cui parte di una popolazione si distacca dal luogo di origine mantenendo la medesima lingua che subirà influenze dissimili a causa del contesto estraneo.&#xA;                        "> isolement
+                     <del class="del">d</del>
+                     linguistique
+                     <del class="del">que</del>
+                     </span> d'
+                  <span class="abbr">1</span>
+                  <span class="expan"><i>une</i></span> 
+                  <span class="abbr">certe</span>
+                  <span class="expan"><i>certaine</i></span>
+                  <span class="el_term" id="def_comm" title="&#xA;                            Insieme di persone che condivide lo stesso sistema linguistico.&#xA;                        ">com </span>
+                  <br><span class="numeroRiga" id="p15_9"><b>9</b></span>
+                  <span class="el_term" id="def_comm" title="&#xA;                            Insieme di persone che condivide lo stesso sistema linguistico.&#xA;                        ">munauté</span> est 
+                  <del class="del">double</del>
+                  <span class="abbr">probabl.</span>
+                  <span class="expan"><i>probablement</i></span> <span class="el_term" id="def_double" title="&#xA;                            Sistema che si compone di due parti, di due elementi, non necessariamente uguali.&#xA;                        ">double:</span>
+                  
+                  <br><span class="numeroRiga" id="p15_9"><b>9</b></span>
+                  d’une
+                  <br><span class="numeroRiga" id="p15_10"><b>10</b></span>
+                  part les
+                  <span class="el_term" id="def_dif" title="&#xA;                            Distinzione tra enti appartenenti a una stessa categoria concettuale, che può comportare la specificazione dell'aspetto per cui differiscono tra di loro.&#xA;                        "> différences</span> se produisent plus
+                  <br><span class="numeroRiga" id="p15_11"><b>11</b></span>
+                  rapidement
+                  <del class="del">,</del>
+                  - et de l’autre ces
+                  <span class="el_term" id="def_dif" title="&#xA;                            Distinzione tra enti appartenenti a una stessa categoria concettuale, che può comportare la specificazione dell'aspetto per cui differiscono tra di loro.&#xA;                        "> différences</span> se
+                  <br><span class="numeroRiga" id="p15_12"><b>12</b></span>
+                  produisent
+                  <span class="abbr"> ds</span>
+                  <span class="expan"><i>dans</i></span> une autre
+                  <span class="el_term" id="def_dir" title="&#xA;                            parte o punto verso cui una persona o una cosa si muovono o sono dirette&#xA;                        "> direction</span> que si
+                  <br><span class="numeroRiga" id="p15_13"><b>13</b></span>
+                  la
+                  <span class="el_term" id="def_comm" title="&#xA;                            Insieme di persone che condivide lo stesso sistema linguistico.&#xA;                        "> communauté</span> était restée en 
+                  <span class="el_term" id="def_contact" title="&#xA;                            Vicinanza tra persone diretta o mediata da un mezzo di comunicazione o una relazione. &#xA;                        ">contact</span> avec
+                  <br><span class="numeroRiga" id="p15_14"><b>14</b></span>
+                  la
+                  <span class="el_term" id="def_masse" title="&#xA;                            Moltitudine in genere, quantità di gente non differenziata, folla, popolo&#xA;                        "> masse.</span> 
+                  
+                  <br><span class="numeroRiga" id="p15_14"><b>14</b></span>
+                  Mais, je le répète, c’est là un cas
+                  <br><span class="numeroRiga" id="p15_15"><b>15</b></span>
+                  sinon
+                  <span class="el_term" id="def_exc" title="&#xA;                            Entità che costituisce un’eccezione, quindi straordinaria, singolare, insolita.&#xA;                        "> exceptionnel,</span> <del class="del">du moins completement</del>    
+                  <br><span class="numeroRiga" id="p15_16"><b>16</b></span>
+                  du moins réclamant une étude spéciale
+                  <br><span class="numeroRiga" id="p15_17"><b>17</b></span>
+                  et qui ne peut être abordé qu’à
+                  <span class="el_term" id="def_cond" title="&#xA;                            Fatto il cui intervento è necessario perché un altro fatto possa verificarsi.&#xA;                        "> condition</span>
+                  <br><span class="numeroRiga" id="p15_18"><b>18</b></span>
+                  d’être
+                  <del class="del">
+                     <span class="gap">?</span>
+                     </del>
+                  
+                  <add class="add"><b>^</b><i>(
+                        d’abord
+                        )</i></add> au clair
+                  <span class="el_term" id="def_prec" title="&#xA;                            Ben determinato; netto, senza equivoci.&#xA;                        "> précisément</span> sur
+                  <br><span class="numeroRiga" id="p15_19"><b>19</b></span>
+                  la
+                  <span class="el_term" id="def_diffe" title="&#xA;                            L’atto, il fatto di differenziare, cioè di rendere differente o di trattare in modo differente.&#xA;                        "> différenciation</span> qui s’accomplit
+                  <span class="abbr"> ds</span>
+                  <span class="expan"><i> dans</i></span> un
+                  <span class="el_term" id="def_cor_ling_cont" title="&#xA;                            Insieme delle connotazioni che caratterizzano una lingua dal punto di vista diacronico&#xA;                        "> corps</span>
+                  <br><span class="numeroRiga" id="p15_20"><b>20</b></span>
+                  <span class="el_term" id="def_cor_ling_cont" title="&#xA;                            Insieme delle connotazioni che caratterizzano una lingua dal punto di vista diacronico&#xA;                        ">
+                     <span class="abbr"> linguistiq.</span>
+                     <span class="expan"><i> linguistique</i></span> continu.
+                     </span>
+                  
+                  <br><span class="numeroRiga" id="p16_"><b></b></span>
+                  
+                  </div>
+               <div class="p16"><button type="button" id="mostra_retro16" onclick="mostra_r16()">Mostra retro</button><button type="button" id="mostra_p15" class="p16" onclick="mostra_p15()">Pagina 15</button><button type="button" id="mostra_front16" onclick="mostra_16()">Mostra principale</button><h4>Testo originale</h4>
+                  <div id="pagina_16"></div>
+                  <br><span class="numeroRiga" id="p16_1"><b>1</b></span>
+                  Si nous essayons
+                  
+                  <add class="add"><b>^</b><i>(
+                        <span class="abbr">maintt </span>
+                        <span class="expan"><i>maintenant </i></span>
+                        )</i></add> de combiner,
+                  
+                  <add class="add"><b>^</b><i>( de composer)</i></add>
+                  <span class="el_term" id="def_fait" title="&#xA;                            Caratteristica di una entità, un soggetto.&#xA;                        "> le fait</span> de la
+                  <br><span class="numeroRiga" id="p16_2"><b>2</b></span>
+                  <span class="el_term" id="def_diffe" title="&#xA;                            L’atto, il fatto di differenziare, cioè di rendere differente o di trattare in modo differente.&#xA;                        "> différenciation</span>
+                  <span class="abbr"> ds</span>
+                  <span class="expan"><i> dans</i></span> le
+                  <span class="el_term" id="def_temp" title="&#xA;                            Successione di istanti che può essere suddivisa, misurata e distinta in ogni sua frazione.&#xA;                        "> temps</span> avec celui de la
+                  <br><span class="numeroRiga" id="p16_3"><b>3</b></span>
+                  <span class="el_term" id="def_diffe" title="&#xA;                            L’atto, il fatto di differenziare, cioè di rendere differente o di trattare in modo differente.&#xA;                        ">
+                     <span class="abbr"> diff</span>
+                     <span class="expan"><i> différenciation</i></span>
+                     </span>
+                  <span class="abbr"> ds</span>
+                  <span class="expan"><i> dans</i></span>
+                  <span class="el_term" id="def_espace" title="&#xA;                            Luogo o all’ambiente in cui si svolgono fenomeni.&#xA;                        ">  l’espace,</span> à quelle
+                  <span class="el_term" id="def_pers" title="&#xA;                            In senso figurato, il termine fa riferimento a una previsione di probabili eventi futuri.&#xA;                        "> perspective</span>
+                  
+                  <add class="add"><b>^</b><i>( des
+                        <span class="el_term" id="def_phen" title="&#xA;                            Ciò che appare, che è conoscibile attraverso i sensi e che può non corrispondere alla realtà oggettiva.&#xA;                        ">
+                           <span class="abbr"> phen</span>
+                           <span class="expan"><i> phénomènes</i></span>
+                           </span>
+                        )</i></add> arrive
+                  <br><span class="numeroRiga" id="p16_4"><b>4</b></span>
+                  rons-nous assez
+                  <span class="el_term" id="def_natur" title=""> naturellement?</span>
+                  
+                  <br><span class="numeroRiga" id="p16_4"><b>4</b></span>
+                  Soit une certaine
+                  <br><span class="numeroRiga" id="p16_5"><b>5</b></span>
+                  <span class="el_term" id="def_sur" title="&#xA;                            Porzione di spazio definita.&#xA;                        "> surface</span>
+                  
+                  <add class="add"><b>^</b><i>( de mille
+                        <span class="el_term" id="def_lieues" title="&#xA;                            Unità di misura di distanza, e soprattutto di percorsi terrestri o marittimi, usata in passato, e spesso ancora oggi, con valori diversi da paese a paese.&#xA;                        "> lieues</span>
+                        <span class="el_term" id="def_carrées" title="&#xA;                            Sistema di valutazione che, associato ad un unità di misura, definisce una superficie.&#xA;                        "> carrées</span>
+                        )</i></add> où se parle à
+                  <span class="abbr"> 1</span>
+                  <span class="expan"><i> un</i></span> 
+                  <span class="el_term" id="def_mom_don" title="&#xA;                            Istante preciso, specifico, stabilito.&#xA;                        "> moment donné</span>
+                  <span class="abbr"> 1</span>
+                  <span class="expan"><i> un</i></span> m
+                  <br><span class="numeroRiga" id="p16_6"><b>6</b></span>
+                  <span class="el_term" id="def_idiome" title="&#xA;                            Lingua propria di una nazione. In particolare, in linguistica, il conglomerato di sistemi che coesistono nell’ambito di una data comunità storico-sociologica.&#xA;                        ">idiome:</span>
+                  - 500 ans après il y a 
+                  <span class="abbr"> tt</span>
+                  <span class="expan"><i> toute</i></span> une
+                  <br><span class="numeroRiga" id="p16_7"><b>7</b></span>
+                  série de 
+                  <span class="el_term" id="def_dialectes" title="&#xA;                            Sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo.&#xA;                        "> dialectes</span>
+                  <span class="el_term" id="def_dif" title="&#xA;                            Distinzione tra enti appartenenti a una stessa categoria concettuale, che può comportare la specificazione dell'aspetto per cui differiscono tra di loro.&#xA;                        "> différents</span> sur la même 
+                  <span class="el_term" id="def_sur" title="&#xA;                            Porzione di spazio definita.&#xA;                        "> surface.</span>
+                  <br><span class="numeroRiga" id="p16_8_nota"><b>8_nota</b></span>
+                  
+                  <add class="add"><b>&lt;</b><i>( B' B" B'")</i><b>&gt;</b></add>
+                  
+                  <br><span class="numeroRiga" id="p16_8"><b>8</b></span>
+                  Mais si nous partageons en 
+                  <span class="abbr"> 2</span>
+                  <span class="expan"><i> deux</i></span>
+                  <span class="el_term" id="def_distance" title="&#xA;                            La lunghezza del percorso fra due luoghi, due oggetti.&#xA;                        "> la distance</span>
+                  <br><span class="numeroRiga" id="p16_9"><b>9</b></span>
+                  <span class="abbr"> ds</span>
+                  <span class="expan"><i> dans</i></span> le 
+                  <span class="el_term" id="def_temp" title="&#xA;                            Successione di istanti che può essere suddivisa, misurata e distinta in ogni sua frazione.&#xA;                        "> temps,</span> 
+                  <del class="del">il est</del>il en résulte
+                  <span class="el_term" id="def_inevi" title="&#xA;                            Ciò che non può essere evitato.&#xA;                        "> inévitablement</span>
+                  <br><span class="numeroRiga" id="p16_10"><b>10</b></span>
+                  aussi un tout autre aspect des
+                  <span class="el_term" id="def_dif_dial" title="&#xA;                            Le differenze dialettali sono espressioni utilizzate sul territorio nazionale, ma che sono pronunciate e scritte in modo differente da regione a regione.&#xA;                        ">
+                     <span class="abbr"> differe</span>
+                     <span class="expan"><i> différences</i></span> dialectales;
+                     </span>
+                  
+                  <br><span class="numeroRiga" id="p16_11"><b>11</b></span>
+                  <span class="abbr"> c. à d.</span>
+                  <span class="expan"><i> c’est-à-dire</i></span> qu’au bout de 250 ans, non seulement
+                  <br><span class="numeroRiga" id="p16_12"><b>12</b></span>
+                  <del class="del">dans chacun des</del>
+                  
+                  <add class="add"><b>&lt;</b><i>( les)</i><b>&gt;</b></add> 
+                  
+                  <add class="add"><b>&lt;</b><i>(
+                        <span class="el_term" id="def_dif_dialectes" title="&#xA;                            Sistemi linguistici di ambito geografico o culturale per lo più limitato, che differiscono tra loro e non hanno raggiunto o hanno perduto autonomia e prestigio di fronte agli altri sistemi con cui costituiscono geneticamente un gruppo.&#xA;                        ">différents </span>
+                        )</i><b>&gt;</b></add>
+                  <span class="el_term" id="def_dif_dialectes" title="&#xA;                            Sistemi linguistici di ambito geografico o culturale per lo più limitato, che differiscono tra loro e non hanno raggiunto o hanno perduto autonomia e prestigio di fronte agli altri sistemi con cui costituiscono geneticamente un gruppo.&#xA;                        "> dialectes</span> B' B" ne
+                  <del class="del"> seront</del>
+                  
+                  <add class="add"><b>^</b><i>( sont)</i></add> pas
+                  <br><span class="numeroRiga" id="p16_13"><b>13</b></span>
+                  encore ce qu’ils 
+                  <del class="del">
+                     <span class="gap">?</span>
+                     </del>seront, mais qu’ils n’existent
+                  <br><span class="numeroRiga" id="p16_14"><b>14</b></span>
+                  pas encore comme
+                  <span class="el_term" id="def_dialectes" title="&#xA;                            Sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo.&#xA;                        ">
+                     <span class="abbr"> dial.</span>
+                     <span class="expan"><i> dialectes</i></span>
+                     </span>
+                  <span class="el_term" id="def_indi" title="&#xA;                            Entità separate, singole, autonome.&#xA;                        "> individuels;</span>
+                  
+                  <br><span class="numeroRiga" id="p16_14"><b>14</b></span>
+                  il n’y
+                  <br><span class="numeroRiga" id="p16_15"><b>15</b></span>
+                  a par
+                  <span class="abbr"> ex.</span>
+                  <span class="expan"><i> exemple</i></span> au bout de 250 ans que
+                  <span class="abbr"> 2</span>
+                  <span class="expan"><i> deux</i></span>
+                  <br><span class="numeroRiga" id="p16_16"><b>16</b></span>
+                  grandes
+                  <span class="el_term" id="def_fractions" title="&#xA;                            Parte di un tutto, porzione separata di un insieme.&#xA;                        "> fractions</span> au
+                  <span class="el_term" id="def_n_lieu_de" title="">lieu</span> de
+                  <span class="abbr"> 30</span>
+                  <span class="expan"><i> trente</i></span> ou
+                  <span class="abbr"> 40</span>
+                  <span class="expan"><i> quarante;</i></span>
+                  
+                  <br><span class="numeroRiga" id="p16_17"><b>17</b></span>
+                  et de 
+                  <span class="abbr">
+                     +
+                     </span>
+                  <span class="expan"><i> plus</i></span> ces 
+                  <span class="abbr"> 2</span>
+                  <span class="expan"><i> deux</i></span>
+                  <span class="abbr"> gds</span>
+                  <span class="expan"><i> grandes</i></span>
+                  <span class="el_term" id="def_fractions" title="&#xA;                            Parte di un tutto, porzione separata di un insieme.&#xA;                        "> fractions</span> ne sont pas
+                  <br><span class="numeroRiga" id="p16_18"><b>18</b></span>
+                  
+                  <add class="add"><b>&lt;</b><i>( encore)</i><b>&gt;</b></add>
+                  très 
+                  <span class="el_term" id="def_cara" title="&#xA;                            Soggetto o entità costituito da caratteristiche precise e definite. &#xA;                        "> caractérisées</span>
+                  chacune, de façon
+                  <del class="del"> qu'on</del>
+                  <br><span class="numeroRiga" id="p16_19_nota"><b>19_nota</b></span>
+                  
+                  <add class="add"><b>&lt;</b><i>( que l’habitant d’
+                        <span class="abbr">1</span>
+                        <span class="expan"><i>un</i></span> village de l’
+                        <span class="abbr">extr</span>
+                        <span class="expan"><i>extrême</i></span> Sud
+                        )</i><b>&gt;</b></add>
+                  <br><span class="numeroRiga" id="p16_19"><b>19</b></span>
+                  pourra encore se faire comprendre à l’ex
+                  <br><span class="numeroRiga" id="p16_20"><b>20</b></span>
+                  trême Nord.
+                  
+                  <br><span class="numeroRiga" id="p16_21"><b>21</b></span>
+                   Cette 
+                  <span class="el_term" id="def_vue" title="&#xA;                           L’azione, il fatto di vedere una cosa per esaminarla, trarne notizie utili&#xA;                        "> vue, </span> 
+                  <span class="abbr"> MM.</span>
+                  <span class="expan"><i> Messieurs</i></span>, n’est ni 
+                  <del class="del"> précisé</del> très
+                  <br><span class="numeroRiga" id="p16_22"><b>22</b></span>
+                  <span class="el_term" id="def_fausse" title="&#xA;                            Si definisce falso tutto ciò che è sostanzialmente non vero, ma è creduto o si vuol far passare per vero.&#xA;                        "> fausse </span> d’
+                  <span class="abbr"> 1</span>
+                  <span class="expan"><i> un</i></span> côté, ni très 
+                  <span class="el_term" id="def_vraie" title="&#xA;                           Che è realmente ciò che dice il suo nome&#xA;                        "> vraie </span> de l’autre.
+                  
+                  <br><span class="numeroRiga" id="p16_23"><b>23</b></span>
+                  Une des conquêtes les 
+                  <span class="abbr">
+                     +
+                     </span>
+                  <span class="expan"><i> plus</i></span> appréciables, et les
+                  <br><span class="numeroRiga" id="p16_24"><b>24</b></span>
+                  <span class="abbr">
+                     +
+                     </span>
+                  <span class="expan"><i> plus</i></span> récentes, de la 
+                  <span class="el_term" id="def_ling" title="&#xA;                            Scienza che studia sistematicamente il linguaggio umano nella totalità delle sue manifestazioni, e quindi le lingue come istituti storici e sociali, la loro ripartizione, i loro reciproci rapporti, nonché la funzionalità delle singole lingue sotto differenti aspetti (fonetico, sintattico, lessicale, semantico), sia nella struttura con cui si presentano in un determinato momento della loro storia sia nella loro evoluzione attraverso il tempo.&#xA;                        "> linguistique </span>, due 
+                  <del class="del"> en bon</del>
+                  <br><span class="numeroRiga" id="p16_25"><b>25</b></span>
+                  principalement à M. 
+                  <span class="pers">
+                      Paul
+                      Meyer 
+                     </span> 
+                  de l’
+                  <span class="ist"> École </span>
+                  <br><span class="numeroRiga" id="p16_26"><b>26</b></span>
+                  <span class="ist"> des Chartes, </span> c’est
+                  <del class="del"> qui'il 
+                     <u>n'exist pas en</u>
+                     </del>
+                  <br><span class="numeroRiga" id="p16_27"><b>27</b></span>
+                  <del class="del"> realité d'unités o </del> que les 
+                  <span class="el_term" id="def_dialectes" title="&#xA;                            Sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo.&#xA;                        "> dialectes </span> ne sont
+                  <br><span class="numeroRiga" id="p16_28"><b>28</b></span>
+                  pas en 
+                  <span class="el_term" id="def_réalité" title="&#xA;                            Fatto vero, che esiste o è esistito realmente o che è veramente accaduto.&#xA;                        "> réalité </span> des 
+                  <span class="el_term" id="def_unités" title="&#xA;                            Il fatto e la caratteristica di costituire un insieme che, pur formato o derivato da più elementi o componenti, risulta tuttavia unitario, omogeneo e solidale.&#xA;                        "> unités </span> 
+                  <span class="el_term" id="def_définies" title="&#xA;                            Entità precisa, determinata.&#xA;                        "> définies,</span> qu’il
+                  <br><span class="numeroRiga" id="p16_29"><b>29</b></span>
+                  <u>n’existe pas</u> 
+                  
+                  <add class="add"><b>^</b><i>( 
+                        <span class="el_term" id="def_géogr" title="&#xA;                            Per quanto riguarda la geografia, cioè la conformazione o la posizione geografica di un luogo&#xA;                        "> géographiquement</span>
+                        )</i></add> 
+                  de 
+                  <span class="el_term" id="def_dialectes" title="&#xA;                            Sistema linguistico di ambito geografico o culturale per lo più limitato, che non ha raggiunto o che ha perduto autonomia e prestigio di fronte agli altri sistemi con i quali costituisce geneticamente un gruppo.&#xA;                        "> dialectes;</span> mais qu’il existe
+                  <br><span class="numeroRiga" id="p16_30"><b>30</b></span>
+                  en revanche 
+                  <span class="el_term" id="def_géogr" title="&#xA;                            Per quanto riguarda la geografia, cioè la conformazione o la posizione geografica di un luogo&#xA;                        ">
+                     <span class="abbr"> géographiq</span>
+                     <span class="expan"><i> géographiquement</i></span>
+                     </span>
+                  des 
+                  <u> 
+                     <span class="el_term" id="def_caractères" title="&#xA;                            Segno distintivo, qualità propria che contraddistingue una persona, un organismo, un fenomeno collettivo, una cosa, da altri&#xA;                        ">
+                        <span class="abbr"> caractèr</span>
+                        <span class="expan"><i> caractères</i></span>
+                        </span> 
+                     </u>
+                  
+                  <add class="add"><b>^</b><i>( 
+                        <span class="el_term" id="def_dialectaux" title="&#xA;                            Che riguardano il dialetto&#xA;                        "> dialectaux. </span>
+                        )</i></add>
+                  </div>
+            </div>
+            <div class="p15" id="cont_img_15"><img src="img/pagina15.png" width="450px" usemap="#map_pagina15"><map class="Map" name="map_pagina15"><area id="mp15_1" coords="106, 29, 422, 55" shape="rect" onmouseover="creaMappa(&#34;p15_1&#34;)" onmouseout="togliMappa(&#34;p15_1&#34;)"><area id="mp15_2" coords="107, 53, 431, 77" shape="rect" onmouseover="creaMappa(&#34;p15_2&#34;)" onmouseout="togliMappa(&#34;p15_2&#34;)"><area id="mp15_3" coords="43, 74, 431, 102" shape="rect" onmouseover="creaMappa(&#34;p15_3&#34;)" onmouseout="togliMappa(&#34;p15_3&#34;)"><area id="mp15_4" coords="103, 97, 407, 116" shape="rect" onmouseover="creaMappa(&#34;p15_4&#34;)" onmouseout="togliMappa(&#34;p15_4&#34;)"><area id="mp15_5" coords="97, 117, 435, 140" shape="rect" onmouseover="creaMappa(&#34;p15_5&#34;)" onmouseout="togliMappa(&#34;p15_5&#34;)"><area id="mp15_6" coords="96, 139, 423, 159" shape="rect" onmouseover="creaMappa(&#34;p15_6&#34;)" onmouseout="togliMappa(&#34;p15_6&#34;)"><area id="mp15_7" coords="99, 160, 432, 183" shape="rect" onmouseover="creaMappa(&#34;p15_7&#34;)" onmouseout="togliMappa(&#34;p15_7&#34;)"><area id="mp15_7_nota" coords="23, 155, 94, 261" shape="rect" onmouseover="creaMappa(&#34;p15_7_nota&#34;)" onmouseout="togliMappa(&#34;p15_7_nota&#34;)"><area id="mp15_8" coords="99, 189, 428, 209" shape="rect" onmouseover="creaMappa(&#34;p15_8&#34;)" onmouseout="togliMappa(&#34;p15_8&#34;)"><area id="mp15_9" coords="103, 213, 440, 237" shape="rect" onmouseover="creaMappa(&#34;p15_9&#34;)" onmouseout="togliMappa(&#34;p15_9&#34;)"><area id="mp15_10" coords="102, 235, 424, 255" shape="rect" onmouseover="creaMappa(&#34;p15_10&#34;)" onmouseout="togliMappa(&#34;p15_10&#34;)"><area id="mp15_11" coords="103, 257, 423, 273" shape="rect" onmouseover="creaMappa(&#34;p15_11&#34;)" onmouseout="togliMappa(&#34;p15_11&#34;)"><area id="mp15_12" coords="103, 275, 423, 298" shape="rect" onmouseover="creaMappa(&#34;p15_12&#34;)" onmouseout="togliMappa(&#34;p15_12&#34;)"><area id="mp15_13" coords="106, 297, 434, 321" shape="rect" onmouseover="creaMappa(&#34;p15_13&#34;)" onmouseout="togliMappa(&#34;p15_13&#34;)"><area id="mp15_14" coords="103, 322, 431, 343" shape="rect" onmouseover="creaMappa(&#34;p15_14&#34;)" onmouseout="togliMappa(&#34;p15_14&#34;)"><area id="mp15_15" coords="108, 344, 426, 359" shape="rect" onmouseover="creaMappa(&#34;p15_15&#34;)" onmouseout="togliMappa(&#34;p15_15&#34;)"><area id="mp15_16" coords="111, 361, 435, 381" shape="rect" onmouseover="creaMappa(&#34;p15_16&#34;)" onmouseout="togliMappa(&#34;p15_16&#34;)"><area id="mp15_17" coords="109, 383, 438, 398" shape="rect" onmouseover="creaMappa(&#34;p15_17&#34;)" onmouseout="togliMappa(&#34;p15_17&#34;)"><area id="mp15_18" coords="107, 401, 430, 417" shape="rect" onmouseover="creaMappa(&#34;p15_18&#34;)" onmouseout="togliMappa(&#34;p15_18&#34;)"><area id="mp15_19" coords="103, 419, 436, 445" shape="rect" onmouseover="creaMappa(&#34;p15_19&#34;)" onmouseout="togliMappa(&#34;p15_19&#34;)"><area id="mp15_20" coords="104, 444, 244, 470" shape="rect" onmouseover="creaMappa(&#34;p15_20&#34;)" onmouseout="togliMappa(&#34;p15_20&#34;)"></map></div>
+            <div class="retro" id="cont_img_15r"><img src="img/pagina15r.png" width="450px" usemap="#map_pagina15r"><map class="Map" name="map_pagina15r"><area id="mpagina15r_intera" coords="17, 5, 450, 660" shape="rect" onmouseover="creaMappa(&#34;pagina15r_intera&#34;)" onmouseout="togliMappa(&#34;pagina15r_intera&#34;)"></map></div>
+            <div id="cont_img_16" class="p16"><img src="img/pagina16.png" width="450px" usemap="#map_pagina16"><map class="Map" name="map_pagina16"><area id="mp16_1" coords="105, 18, 419, 51" shape="rect" onmouseover="creaMappa(&#34;p16_1&#34;)" onmouseout="togliMappa(&#34;p16_1&#34;)"><area id="mp16_2" coords="92, 49, 418, 77" shape="rect" onmouseover="creaMappa(&#34;p16_2&#34;)" onmouseout="togliMappa(&#34;p16_2&#34;)"><area id="mp16_3" coords="94, 73, 422, 97" shape="rect" onmouseover="creaMappa(&#34;p16_3&#34;)" onmouseout="togliMappa(&#34;p16_3&#34;)"><area id="mp16_4" coords="94, 92, 423, 117" shape="rect" onmouseover="creaMappa(&#34;p16_4&#34;)" onmouseout="togliMappa(&#34;p16_4&#34;)"><area id="mp16_5" coords="98, 113, 423, 138" shape="rect" onmouseover="creaMappa(&#34;p16_5&#34;)" onmouseout="togliMappa(&#34;p16_5&#34;)"><area id="mp16_6" coords="99, 137, 415, 161" shape="rect" onmouseover="creaMappa(&#34;p16_6&#34;)" onmouseout="togliMappa(&#34;p16_6&#34;)"><area id="mp16_7" coords="99, 154, 421, 181" shape="rect" onmouseover="creaMappa(&#34;p16_7&#34;)" onmouseout="togliMappa(&#34;p16_7&#34;)"><area id="mp16_8" coords="98, 179, 423, 207" shape="rect" onmouseover="creaMappa(&#34;p16_8&#34;)" onmouseout="togliMappa(&#34;p16_8&#34;)"><area id="mp16_8_nota" coords="18, 179, 79, 207" shape="rect" onmouseover="creaMappa(&#34;p16_8_nota&#34;)" onmouseout="togliMappa(&#34;p16_8_nota&#34;)"><area id="mp16_9" coords="104, 200, 423, 226" shape="rect" onmouseover="creaMappa(&#34;p16_9&#34;)" onmouseout="togliMappa(&#34;p16_9&#34;)"><area id="mp16_10" coords="106, 219, 435, 247" shape="rect" onmouseover="creaMappa(&#34;p16_10&#34;)" onmouseout="togliMappa(&#34;p16_10&#34;)"><area id="mp16_11" coords="104, 242, 431, 266" shape="rect" onmouseover="creaMappa(&#34;p16_11&#34;)" onmouseout="togliMappa(&#34;p16_11&#34;)"><area id="mp16_12" coords="34, 261, 415, 297" shape="rect" onmouseover="creaMappa(&#34;p16_12&#34;)" onmouseout="togliMappa(&#34;p16_12&#34;)"><area id="mp16_13" coords="109, 281, 426, 310" shape="rect" onmouseover="creaMappa(&#34;p16_13&#34;)" onmouseout="togliMappa(&#34;p16_13&#34;)"><area id="mp16_14" coords="108, 303, 422, 329" shape="rect" onmouseover="creaMappa(&#34;p16_14&#34;)" onmouseout="togliMappa(&#34;p16_14&#34;)"><area id="mp16_15" coords="111, 322, 406, 351" shape="rect" onmouseover="creaMappa(&#34;p16_15&#34;)" onmouseout="togliMappa(&#34;p16_15&#34;)"><area id="mp16_16" coords="107, 349, 423, 374" shape="rect" onmouseover="creaMappa(&#34;p16_16&#34;)" onmouseout="togliMappa(&#34;p16_16&#34;)"><area id="mp16_17" coords="109, 372, 424, 395" shape="rect" onmouseover="creaMappa(&#34;p16_17&#34;)" onmouseout="togliMappa(&#34;p16_17&#34;)"><area id="mp16_18" coords="59, 392, 433, 422" shape="rect" onmouseover="creaMappa(&#34;p16_18&#34;)" onmouseout="togliMappa(&#34;p16_18&#34;)"><area id="mp16_19_nota" coords="18, 424, 103, 478" shape="rect" onmouseover="creaMappa(&#34;p16_19_nota&#34;)" onmouseout="togliMappa(&#34;p16_19_nota&#34;)"><area id="mp16_19" coords="107, 415, 429, 450" shape="rect" onmouseover="creaMappa(&#34;p16_19&#34;)" onmouseout="togliMappa(&#34;p16_19&#34;)"><area id="mp16_20" coords="113, 445, 211, 469" shape="rect" onmouseover="creaMappa(&#34;p16_20&#34;)" onmouseout="togliMappa(&#34;p16_20&#34;)"><area id="mp16_21" coords="147, 455, 431, 486" shape="rect" onmouseover="creaMappa(&#34;p16_21&#34;)" onmouseout="togliMappa(&#34;p16_21&#34;)"><area id="mp16_22" coords="109, 481, 426, 508" shape="rect" onmouseover="creaMappa(&#34;p16_22&#34;)" onmouseout="togliMappa(&#34;p16_22&#34;)"><area id="mp16_23" coords="112, 505, 423, 530" shape="rect" onmouseover="creaMappa(&#34;p16_23&#34;)" onmouseout="togliMappa(&#34;p16_23&#34;)"><area id="mp16_24" coords="112, 526, 426, 554" shape="rect" onmouseover="creaMappa(&#34;p16_24&#34;)" onmouseout="togliMappa(&#34;p16_24&#34;)"><area id="mp16_25" coords="113, 545, 421, 575" shape="rect" onmouseover="creaMappa(&#34;p16_25&#34;)" onmouseout="togliMappa(&#34;p16_25&#34;)"><area id="mp16_26" coords="119, 573, 416, 592" shape="rect" onmouseover="creaMappa(&#34;p16_26&#34;)" onmouseout="togliMappa(&#34;p16_26&#34;)"><area id="mp16_27" coords="116, 594, 430, 617" shape="rect" onmouseover="creaMappa(&#34;p16_27&#34;)" onmouseout="togliMappa(&#34;p16_27&#34;)"><area id="mp16_28" coords="107, 611, 412, 644" shape="rect" onmouseover="creaMappa(&#34;p16_28&#34;)" onmouseout="togliMappa(&#34;p16_28&#34;)"><area id="mp16_29" coords="115, 633, 440, 667" shape="rect" onmouseover="creaMappa(&#34;p16_29&#34;)" onmouseout="togliMappa(&#34;p16_29&#34;)"><area id="mp16_30" coords="174, 659, 438, 680" shape="rect" onmouseover="creaMappa(&#34;p16_30&#34;)" onmouseout="togliMappa(&#34;p16_30&#34;)"></map></div>
+            <div class="retro" id="cont_img_16r"><img src="img/pagina16r.png" width="450px" usemap="#map_pagina16r"><map class="Map" name="map_pagina16r"><area id="mpagina16r_intera" coords="12, 8, 441, 675" shape="rect" onmouseover="creaMappa(&#34;pagina16r_intera&#34;)" onmouseout="togliMappa(&#34;pagina16r_intera&#34;)"></map></div>
+         </div>
+         <div id="traduzione">
+            <div class="p15">
+               Il caso della separazione geografica, intendo della discontinuità geografica assoluta,
+               questo caso, ben lungi dal rappresentare una condizione regolare perché ci sia divergenza,
+               costituisce un caso particolare che richiede di essere esaminato a parte e che io
+               escludo
+               completamente dal nostro presente studio. 
+               
+               L’effetto dell’isolamento linguistico di una certa comunità è probabilmente duplice:
+               
+               
+               da una parte le differenze si producono più rapidamente, e dall’altra queste differenze
+               si producono in un’altra direzione rispetto a quella che avrebbe preso se la comunità
+               fosse rimasta in contatto con la massa. 
+               
+               Ma, lo ripeto, si tratta di un caso che, se non è eccezionale, quantomeno reclama
+               uno
+               studio speciale e che può essere affrontato solo a condizione di avere anzitutto le
+               idee ben chiare sulla differenziazione che si compie in un corpo linguistico continuo.
+               
+               </div>
+            <div class="p16">
+               Se noi proviamo ora a combinare, a comporre il fatto della differenziazione
+               nel tempo con quello della differenziazione nello spazio, a quale prospettiva
+               sui fenomeni arriveremo abbastanza naturalmente? 
+               
+               Sia una certa superficie di mille leghe quadrate in cui si parla un idioma
+               in un momento dato: 500 anni dopo c’è tutta una serie di dialetti differenti
+               sulla medesima superficie, B’, B’’, B’’’. 
+               
+               Ma se noi dividiamo in due la distanza nel tempo, ne risulta inevitabilmente
+               anche un aspetto completamente diverso delle differenze dialettali; 
+               
+               vale a dire che in capo a 250 anni, non solo i differenti dialetti B’, B’’ non sono
+               ancora ciò che saranno, ma che essi non esistono ancora come dialetti individuali;
+               
+               
+               per esempio, in capo a 250 anni ci sono soltanto due grandi frazioni in luogo di trenta
+               o quaranta; 
+               
+               e in più queste due grandi frazioni non sono ancora molto caratterizzate ognuna
+               per proprio conto, di modo che l’abitante di un villaggio dell’estremo sud 
+               potrà ancora farsi capire all’estremo nord. 
+               
+               Questa visione, Signori, da una parte non è del tutto vera, e dall’altra non è del
+               tutto falsa. 
+               
+               Una delle conquiste più pregevoli della linguistica, dovuta principalmente a Paul
+               Meyer
+               dell’École des Chartes, è che i dialetti non sono in realtà unità definite, che non
+               esistono
+               geograficamente dei dialetti; ma esistono invece, geograficamente, dei caratteri dialettali.
+               
+               </div>
+         </div>
+      </div>
+      <div id="appendice">
+         <h3>Appendice</h3>
+         <h4>Bibliografia</h4>
+         <div id="cont_bibl">
+            <div>
+               <p><b>Titolo: </b>Trois premières conférences à l'Universitè</p>
+               <p><b>Autore: </b>Ferdinand de Saussure</p>
+               <p><b>Luogo di pubblicazione: </b>Università di Ginevra</p>
+               <p><b>Editore: </b>
+                  Biblioteca di Ginevra
+                  </p>
+               <p><b>Data: </b>1891</p>
+            </div>
+            <div>
+               <p><b>Titolo: </b>Cahiers - 
+                  Ferdinand de Saussure
+                  </p>
+               <p><b>Autore: </b>
+                  Alessandro
+                  Chidichimo
+                  </p>
+               <p><b>Luogo di pubblicazione: </b>Ginevra</p>
+               <p><b>Editore: </b>Librairie Droz</p>
+               <p><b>Data: </b>2009</p>
+            </div>
+            <div>
+               <p><b>Titolo: </b>Lingua e mente sociale</p>
+               <p><b>Autore: </b>
+                  Emanuele
+                  Fadda
+                  </p>
+               <p><b>Luogo di pubblicazione: </b>Acireale</p>
+               <p><b>Editore: </b>Bonanno Editore</p>
+               <p><b>Data: </b>2006</p>
+            </div>
+            <div>
+               <p><b>Titolo: </b>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</p>
+               <p><b>Autore: </b>
+                  Ferdinand
+                  De Saussure
+                  </p>
+               <p><b>Luogo di pubblicazione: </b>Roma</p>
+               <p><b>Editore: </b>Editori Laterza</p>
+               <p><b>Data: </b>1976</p>
+            </div>
+         </div>
+         <div id="presentazione">
+            <h3>Indicazioni</h3>
+            <div>
+               <h4>Progetto a cura di 
+                  Irene
+                  Ivaldi 
+                   e 
+                  Ylenia
+                  Torino 
+                  </h4>
+               <h4>Condotto per l'esame di Codifica di Testi, a.a. 2020/2021</h4>
+               <h4>Tenuto dal Professor 
+                  Angelo Mario
+                  del Grosso 
+                  </h4>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
