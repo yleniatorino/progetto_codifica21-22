@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "es6.dtd">
+
+<TEI>
+    <header type="intestazione"> </header>
+
+    <facsimile source="www.google.com"> </facsimile>
+
+    <testo id="identificatore"> 
+        <seg></seg>
+    </testo>
+
+</TEI>

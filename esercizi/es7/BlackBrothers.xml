@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HP SYSTEM "BlackBrothers.dtd">
+
+<HP> 
+    <casa id="Serpeverde">
+        <nome>Regulus Arcturus Black</nome> 
+        <tipo>mago</tipo>
+        <descrizione>Regulus Arcturus appartiene alla nobile e antica famiglia dei Black: fratello di Sirius, è stato seguace di Voldemort fino a quando non ha compreso i suoi piani e si è sacrificato per creare una possibilità di sconfiggerlo
+        </descrizione> 
+    </casa>
+
+    <casa id="Grifondoro">
+        <nome>Sirius Black</nome>
+        <tipo>mago</tipo>
+        <descrizione>Incolpato ingiustamente di aver tradito i propri amici, Sirius Black è stato rinchiuso nella prigione di Azkaban per 12 anni, fino a quando non ha scoperto che il vero traditore, Peter Minus, era ancora vivo.
+        </descrizione>
+    </casa>
+
+</HP>

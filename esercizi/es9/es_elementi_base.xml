@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <author> J. K. Rowling</author>
+            <title>Harry Potter e la Pietra Filosofale</title>
+        </fileDesc>
+        <profileDesc>
+           <edizione>1997</edizione>
+           <editrice>Salani</editrice> 
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="brano">
+                <p>Erano passati quasi dieci anni da quando i 
+                    <name type="person">Dursley
+                        <note place="foot" resp="ytii">I Dursley sono gli zii materni di Harry Potter
+                            <ref target="capitolo 1"> primo capitolo, pagina 5</ref>
+                        </note>
+                    </name>si erano svegliati una mattina e avevano trovato il nipote
+                    <rs type="person"> Harry Potter</rs> sul gradino di casa, ma 
+                    <name type="luogo">Privet Drive</name> non era cambiata affatto. Il sole sorgeva sugli stessi giardinetti ben tenuti e illuminava il 
+                    <name type="luogo">numero 4</name> d'ottone sulla porta d'ingresso dei 
+                    <name type="person">Dursley</name>; si insinuava nel loro soggiorno, che era pressoché identico a quella sera in cui il signor 
+                    <name type="person">Dursley</name> aveva visto il fatidico telegiornale che parlava di gufi. Soltanto le fotografie sulla mensola del caminetto denotavano quanto tempo fosse passato in realtà. Dieci anni prima c'era un'infinità di fotografie di quello che sembrava un grosso pallone da spiaggia rosa, con indosso cappellini di vari colori. Ma 
+                    <name type="person">Dudley Dursley</name> non era più un lattante, 
+                    <list type="descrizione fotografie">
+                        <head>e ora le fotografie ritraevano un bambinone biondo</head>
+                        <item>in sella alla sua prima bicicletta,</item>
+                        <item>sulle giostre alla fiera,</item>
+                        <item>che giocava al computer col padre, </item>
+                        <item>che si faceva abbracciare e baciare dalla madre.</item>
+                    </list> Nulla, in quella stanza, denotava che in casa viveva anche un altro bambino. Eppure,
+                    <name type="person">Harry Potter</name> abitava ancora lì; in quel momento dormiva, ma non sarebbe stato per molto.
+                    <name type="person">Zia Petunia</name> era sveglia e la sua voce stridula fu il primo rumore della giornata che iniziava.</p>
+            </div>
+        </body>
+    </text>
+    <text>
+        <body>
+            <list type="gloss">
+                <head>Personaggi: </head>
+                <label>Nipote</label>
+                <item>Harry Potter</item>
+                <label>Cugino</label>
+                <item>Dudley Dursley</item>
+                <label>Signor Dursley</label>
+                <item>Vernon Dursley</item>
+                <label>Zia Petunia</label>
+                <item>Petunia Dursley</item>
+            </list>
+            <div>
+                <p>Un <term>albero</term> è un grafo connesso con una radice definita</p>
+            </div>
+        </body>
+    </text>
+</TEI>

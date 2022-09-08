@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Scritto sulla rabbia</title>
+                <author>
+                    <persName>
+                        Massimo Basili
+                    </persName>
+                </author>
+            </titleStmt>
+            <sourceDesc>
+                <bibl xml:id="Basili2016">
+                    <analitic>
+                        <title level="a">Scritto sulla rabbia</title>
+                        <author> Massimo Basili </author>
+                        <date> marzo 2016 </date>
+                    </analitic>
+                    <monogr>
+                        <editor>Associazione Culturale GLBT </editor>
+                        <title level="m">Pride</title>
+                        <imprint>
+                            <pubPlace>Milano</pubPlace>
+                            <publisher>Stefano Bolognini</publisher>
+                            <biblScope unit="numero">196</biblScope>
+                            <biblScope unit="pages">6</biblScope>
+                            <date>marzo 2016</date>
+                        </imprint>
+                    </monogr>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date>
+                    2016
+                </date>
+                <editore>
+                    Pride
+                </editore>
+            </creation> 
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="articolo">
+                <p>NON È DIFFICILE ALLINEARE, una dopo l’altra, le dichiarazioni e i commenti di politici, prelati, uomini e donne di spettacolo che, almeno dal momento dell’inizio della discussione in Senato del DDL Cirinnà, il 26 gennaio scorso, hanno fatto a gara a chi gettava più fango addosso ai gay, alle lesbiche e ai loro figli. Se escludiamo i “crociati” attivi 365 giorni all’anno per lucrare sul deserto dei diritti – sostanzialmente il fronte clerico-fascista che sta dietro l’organizzazione dei vari Family Day, quindi i soliti Adinolfi, Miriano, Gandolfini, Amato – abbiamo scoperto con stupore nuovi, ringhiosi postulanti e ritrovato con sconcerto alcuni vecchi arnesi dell’omofobia professionale.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

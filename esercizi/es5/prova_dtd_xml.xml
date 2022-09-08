@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./prova.dtd">
+
+<TEI>
+    <header>
+        Ecco del testo
+    </header>
+
+    <text>Ciao</text>
+    <text>Mondo</text>
+
+
+</TEI>

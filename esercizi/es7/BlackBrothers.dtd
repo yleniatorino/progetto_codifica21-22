@@ -1,0 +1,8 @@
+<!ELEMENT HP (casa)*> <!-- elemento radice -->
+
+<!ELEMENT casa (nome, tipo+, descrizione?)>
+<!ATTLIST casa id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descrizione (#PCDATA)>

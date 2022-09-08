@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <author> J. K. Rowling</author>
+            <title>Harry Potter e la Pietra Filosofale</title>
+        </fileDesc>
+        <profileDesc>
+           <edizione>1997</edizione>
+           <editrice>Salani</editrice> 
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="brano">
+                <p>Erano passati quasi dieci anni da quando i Dursley si erano svegliati una mattina e avevano trovato il nipote sul gradino di casa, ma <name type="luogo">Privet Drive</name> non era cambiata affatto. Il sole sorgeva sugli stessi giardinetti ben tenuti e illuminava il <name type="luogo">numero 4</name> d'ottone sulla porta d'ingresso dei Dursley; si insinuava nel loro soggiorno, che era pressoché identico a quella sera in cui il signor Dursley aveva visto il fatidico telegiornale che parlava di gufi. Soltanto le fotografie sulla mensola del caminetto denotavano quanto tempo fosse passato in realtà. Dieci anni prima c'era un'infinità di fotografie di quello che sembrava un grosso pallone da spiaggia rosa, con indosso cappellini di vari colori. Ma Dudley Dursley non era più un lattante, e ora le fotografie ritraevano un bambinone biondo in sella alla sua prima bicicletta, sulle giostre alla fiera, che giocava al computer col padre, o che si faceva abbracciare e baciare dalla madre. Nulla, in quella stanza, denotava che in casa viveva anche un altro bambino. Eppure, Harry Potter abitava ancora lì; in quel momento dormiva, ma non sarebbe stato per molto. Zia Petunia era sveglia e la sua voce stridula fu il primo rumore della giornata che iniziava.</p>
+                <p>
+                    <q>
+                        «Su, alzati! Immediatamente!»
+                    </q>
+                </p>
+                <p>Harry Potter si svegliò di soprassalto. La zia tamburellò di nuovo sulla porta.</p>
+                <p>
+                    <q>«Sveglia!»</q>
+                    urlò. Harry sentì i suoi passi avviarsi verso la cucina e poi il rumore della padella che veniva messa sul fornello. Si girò sulla schiena e cercò di ricordare il sogno che stava facendo. Era un bel sogno. C'era una motocicletta volante. Ebbe la strana sensazione di averlo già fatto qualche altra volta.
+                </p>
+                <p>Ecco di nuovo la zia dietro alla porta.</p>
+                <p>
+                    <q>
+                        «Non ti sei ancora alzato?»
+                    </q>
+                    chiese.
+                </p>
+                <p>
+                    <q>
+                        «Sono quasi pronto»                        
+                    </q>
+                    rispose Harry.
+                </p>
+                <p>
+                    <q>
+                        «Be', vedi di spicciarti, voglio che sorvegli il bacon che ho messo sul fuoco. E non ti azzardare a farlo bruciare. Voglio che tutto sia perfetto, il giorno del compleanno di Duddy».
+                    </q>
+                </p>
+                <p>
+                    Harry si lasciò sfuggire un gemito.
+                </p>
+                <p>
+                    <q>
+                        «Cosa hai detto?»
+                    </q>
+                    chiese aspra la zia da dietro la porta.
+                </p>
+                <p>
+                    <q>
+                        «Niente, niente...»
+                    </q>
+                </p>
+                <p>
+                    Il compleanno di Dudley... come aveva potuto dimenticarlo? Si alzò lentamente e cominciò a cercare i calzini. Ne trovò un paio sotto al letto e, dopo aver tolto un ragno da uno dei due, se li infilò. Harry c'era abituato perché il ripostiglio sotto la scala pullulava di ragni, e lui dormiva lì.
+                </p>
+                <p>
+                    Una volta che si fu vestito, attraversò l'ingresso diretto in cucina. Il tavolo scompariva quasi completamente sotto la pila dei regali di compleanno di Dudley. Sembrava proprio che Dudley fosse riuscito a ottenere il nuovo computer che desiderava tanto, per non parlare del secondo televisore e della bici da corsa. Il motivo preciso per cui Dudley voleva una bici da corsa era un mistero per Harry, visto che Dudley era molto grasso e detestava fare moto, a meno che inutile dirlo non si trattasse di prendere a pugni qualcuno. Il punching-ball preferito di Dudley era Harry, quando riusciva ad acchiapparlo, il che non era facile. Non sembrava, ma Harry era molto veloce.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

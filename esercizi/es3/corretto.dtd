@@ -1,0 +1,5 @@
+<!ELEMENT root (titolo)>
+<!ELEMENT titolo (sottotitolo,sibling)>
+<!ELEMENT sottotitolo (#PCDATA)>
+<!ELEMENT sibling (child)>
+<!ELEMENT child (#PCDATA)>

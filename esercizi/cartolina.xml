@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI>
+ <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title> Esercizio cartolina</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Ylenia Torino</name>
+                </respStmt>
+            </titleStmt>
+            <sourceDesc>
+            <bibl> 
+                <title>La Torre Eiffel </title>
+            </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+      
+        <body>
+            <div type="davanti">
+                <figure>
+                    <graphic url="cartolina.jpg"/>
+                    <figDesc>Torre Eiffel al tramonto</figDesc>
+                    <head>Paris</head>
+                </figure>
+            </div>
+        </body>
+</TEI>

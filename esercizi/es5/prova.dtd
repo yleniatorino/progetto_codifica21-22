@@ -1,0 +1,4 @@
+<!ELEMENT TEI (header, text+)+ >
+
+<!ELEMENT header (#PCDATA) >
+<!ELEMENT text (#PCDATA) >
